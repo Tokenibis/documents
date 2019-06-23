@@ -7,6 +7,13 @@
 #+LATEX_HEADER: \usepackage{titlesec}
 #+LATEX_HEADER: \titleformat{\section}{\large\bfseries}{\Roman{section}. }{0pt}{}[\titlerule]
 #+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{\arabic{subsection}. }{0pt}{}
+#+LATEX_HEADER: \renewcommand{\abstractname}{Executive Summary}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Token Ibis Inc.}
+#+LATEX_HEADER: \chead{EIN: 83-4499982}
+#+LATEX_HEADER: \rhead{Attachment V}
+#+LATEX: \thispagestyle{fancy}
 
 I, _\hspace{5cm}_, am a volunteer with Token Ibis Inc. It is my intent
 that any Work I create in my capacity as a volunteer for Token Ibis
