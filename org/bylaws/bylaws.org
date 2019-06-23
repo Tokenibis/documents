@@ -26,7 +26,7 @@ organizations under section 501(c)(3) of the Internal Revenue Code, or
 the corresponding section of any future federal tax code.
 
 ** Specific Purpose
-The mission of Token Ibis, Inc. is to create a novel market-based
+The mission of Token Ibis Inc. is to create a novel market-based
 distributed donation platform. Our work entails the technical
 development of the digital application, fundraising from individuals,
 corporations, and foundations, and fund redistribution to local
