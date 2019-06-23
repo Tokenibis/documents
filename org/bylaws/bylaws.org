@@ -1,6 +1,7 @@
 #+TITLE: Organization Bylaws
 #+AUTHOR: The Token Ibis Inc. Board of Directors
 #+DATE: June 23, 2019
+#+OPTIONS: title:nil toc:nil
 #+LATEX_HEADER: \usepackage{lastpage}
 #+LATEX_HEADER: \usepackage{parskip}
 #+LATEX_HEADER: \usepackage{outlines}
@@ -12,6 +13,15 @@
 #+LATEX_HEADER: \renewcommand{\contentsname}{Table of Contents}
 #+LATEX_HEADER: \setenumerate[1]{label=\Alph*.}
 #+LATEX_HEADER: \setenumerate[2]{label=\roman*.}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Token Ibis Inc.}
+#+LATEX_HEADER: \chead{EIN: 83-4499982}
+#+LATEX_HEADER: \rhead{Attachment I}
+
+#+LATEX: \maketitle
+#+LATEX: \thispagestyle{fancy}
+#+LATEX: \tableofcontents
 #+LATEX: \newpage
 
 * Name of Organization
