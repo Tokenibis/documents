@@ -3,6 +3,12 @@
 #+DATE: June 23, 2019
 #+OPTIONS: toc:nil title:nil
 #+LATEX_CLASS: custom
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Token Ibis Inc.}
+#+LATEX_HEADER: \chead{EIN: 83-4499982}
+#+LATEX_HEADER: \rhead{Attachment IV}
+#+LATEX: \thispagestyle{fancy}
 
 #+BEGIN_abstract
 Although charity exists only by virtue of human compassion, we believe
