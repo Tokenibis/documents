@@ -1,0 +1,102 @@
+#+TITLE: Narrative of Activity
+#+AUTHOR: Token Ibis Inc.
+#+DATE: June 23, 2019
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \hypersetup{hidelinks=true}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \titleformat{\section}{\large\bfseries}{\Roman{section}. }{0pt}{}[\titlerule]
+#+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{\arabic{subsection}. }{0pt}{}
+#+LATEX_HEADER: \renewcommand{\abstractname}{Executive Summary}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Token Ibis Inc.}
+#+LATEX_HEADER: \chead{EIN: 83-4499982}
+#+LATEX_HEADER: \rhead{Attachment II}
+#+LATEX: \thispagestyle{fancy}
+
+#+BEGIN_abstract
+Token Ibis Inc. is currently in an early foundation-building phase. We
+are devoting our efforts to creating ideas, software, marketing
+materials, and outreach toward the local nonprofit community. Thus
+far, our work has resulted in a website, ongoing software and IT
+infrastructure of for a web application, a whitepaper, which we have
+submitted for publication, and various internal documents outlining
+strategy and resources for upcoming endeavors. In the immediate
+future, the work will be shifting toward an effort to generate
+user-friendly media content to build the intellectual foundation while
+developing a community of individuals interested in the mission.
+#+END_abstract
+
+* Past Activities
+Token Ibis Inc. devoted much initial activity toward refining the
+mission, especially in the context of the ambitious movement that we
+are attempting to create. The culmination of this effort was the
+completion of the first draft of a paper on /Universal Basic
+Philanthropy/, which is provided in the standalone Attachment IV. In
+parallel, we have made progress toward creating more accessible
+content to relay the general concept through our website and in-person
+canvassing. A screenshot of the website front page is provided in
+Figure [[fig:website]].
+
+#+name: fig:website
+#+CAPTION: Screenshot of website (https://tokenibis.org). The front page displays an internally created promotional video
+[[./images/website.png]]  
+
+Finally, the volunteer base of Token Ibis Inc. has grown rapidly and
+the organization has taken deliberate steps to ensure all volunteers
+are well-versed in understanding the subject area.
+
+* Present Activities
+Presently, we are concentrating most of our effort toward developing
+the web application that users will use to interact with the Token
+Ibis Inc. payment and media platform. This task involves the following
+type of work:
+- Graphic and UI/UX design
+- Backend IT configuration
+- Application software development
+Sample screenshots of the current product is provided in Figure
+[[fig:screen]].
+
+#+name: fig:screen
+\begin{figure*}[t] \centering
+	\begin{subfigure} \centering
+\includegraphics[width=0.30\textwidth]{images/app_0.png}
+	\end{subfigure}
+	\begin{subfigure} \centering
+\includegraphics[width=0.30\textwidth]{images/app_1.png}
+	\end{subfigure}
+	\begin{subfigure} \centering
+\includegraphics[width=0.30\textwidth]{images/app_2.png}
+	\end{subfigure}
+	\begin{subfigure} \centering
+\includegraphics[width=0.30\textwidth]{images/app_3.png}
+	\end{subfigure}
+	\begin{subfigure} \centering
+\includegraphics[width=0.30\textwidth]{images/app_4.png}
+	\end{subfigure}
+	\begin{subfigure} \centering
+\includegraphics[width=0.30\textwidth]{images/app_5.png}
+	\end{subfigure}
+      \caption{Sample screenshots of the web application in development (intermitently hosted at http://app.tokenibis.org). All text is either collected from public sources or synthetically generated and do not reflect actual user activity.}
+\end{figure*}
+
+* Planned Activities
+The immediate plan of Token Ibis Inc. going forward is to continue
+development of the web application while initializing a push toward
+community building and content. In particular, we will direct most of
+our available volunteer time toward generating content in the
+following formats:
+- Social media posts
+- News articles
+- Blog posts
+- Short videos
+- Podcast episodes
+The purpose of this thrust is to document the development of the
+movement while building an active community of like-minded volunteers
+and readers. From there, we can draw upon the community for users,
+fundraising sources, and to spread general awareness. Once these steps
+have been completed, Token Ibis Inc. will be in a position to begin
+the core mission of operating a scalable, ethical, and scientifically
+sound experimentation to study the application of /Universal Basic
+Philanthropy/.
