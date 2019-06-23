@@ -1,0 +1,50 @@
+#+TITLE: Qualifications, Hours, and Duties
+#+AUTHOR: Token Ibis Inc.
+#+DATE: June 23, 2019
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \hypersetup{hidelinks=true}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+#+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{}{0pt}{}
+#+LATEX_HEADER: \renewcommand{\abstractname}{Executive Summary}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \lhead{Token Ibis Inc.}
+#+LATEX_HEADER: \chead{EIN: 83-4499982}
+#+LATEX_HEADER: \rhead{Attachment III}
+#+LATEX: \thispagestyle{fancy}
+
+* Officers
+** President - Dinh, Thien-Nam
+- *Qualifications* - Thien-Nam holds a B.E. in Mechanical Engineering
+  from the University of Delaware and an M.S. in Computer Science from
+  Rice University. He has experience working with IT systems and
+  software as a cybersecurity researcher and has contributed to
+  peer-reviewed publications in several different fields.
+- *Average Hours Worked* - 40 hrs/week
+- *Duties* - The duties of the President are explicitly described in
+  Article V, Section 1 of the bylaws. Additionally, in the absence of
+  a separate assignment for the position, Thien-Nam serves as the de
+  facto Executive Director for Token Ibis Inc. and oversees the
+  day-to-day operations of the organization.
+** Treasurer - Frumkin, Daniel
+- *Qualifications* - Daniel holds a B.S. in Mechanical Engineering
+  from the University of New Mexico. He works primarily as an
+  independent writer and provides experience with the creation and
+  management of content for growing organizations.
+- *Average Hours Worked* - 5-10 hrs/week
+- *Duties* - The duties of the Treasurer are explicitly described in
+  Article V, Section 3 of the bylaws.
+** Secretary - Thompson, Zachary
+- *Qualifications* - Zach holds a B.S. in Mechanical Engineering and
+  an M.B.A. from the University of New Mexico. Zach is employed as a
+  developer and provides the expertise to contribute in both software
+  and business administration.
+- *Average Hours Worked* - 5 hrs/week
+- *Duties* - The duties of the Treasurer are explicitly described in
+  Article V, Section 2 of the bylaws.
+* Directors - None
+* Trustees - None
+* Highest Compensated Employees - None
+* Highest Compensated Independent Contractors - None
