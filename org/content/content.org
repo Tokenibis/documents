@@ -1,0 +1,207 @@
+#+TITLE: Content Creation Guide v1.0
+#+AUTHOR: Token Ibis Inc.
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \hypersetup{hidelinks=true}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage{dirtytalk}
+#+LATEX_HEADER: \titleformat{\section}{\large\bfseries}{\Roman{section}. }{0pt}{}[\titlerule]
+#+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{\arabic{subsection}. }{0pt}{}
+#+LATEX_HEADER: \renewcommand{\abstractname}{Document Purpose}
+
+#+BEGIN_abstract
+Beginning in Q3 of 2019 and into the foreseeable future, we expect to
+channel most of our new volunteer efforts toward creating content for
+Token Ibis Inc. This document outlines the purpose, method, and style
+for all content we should produce in the current pre-launch phase. It
+is a required read for all volunteers who intend to help generate this
+material.
+#+END_abstract
+
+* Motivation
+Content creation is one of the two primary thrusts of Token Ibis Inc.
+as an organization, with the other being the creation and operation of
+the actual UBP/Ibis experiment. Post-launch, a large part of our
+content will cover the progress of the experiment itself. Pre-launch,
+it serves the following three purposes:
+
+- /Refine Model/: Remember, UBP/Ibis is (as far as we know) a brand new
+  concept. This means that everything we write is potentially the
+  first time anybody has ever put those thoughts on paper – there is a
+  certain responsibility that comes with being first. The more we can
+  flesh out the ideas and support it with contextual evidence, the
+  better.
+- /Gain Credibility/: At some point, we hope to raise funds on the order
+  of millions of dollars per year. Building content, focusing first on
+  quantity and then quality, shows that we run an active, intelligent,
+  and committed organization that is worthy of investment.
+- /Build Community/: Content creation is the most direct way to spread
+  awareness about Ibis as a social movement. More attention from the
+  public equates to more potential users, volunteers, donors, and
+  advocates.
+  
+* Target Narratives
+:PROPERTIES:
+:CUSTOM_ID: narratives
+:END:
+
+As an organization, we are trying to tell the following story: The
+nonprofit sector is less-than-perfect, but Ibis can revolutionize the
+status quo by empowering individuals with the right to partake in
+philanthropy.
+
+More concretely, all content produced by Ibis should directly or
+indirectly support one of the several specific /narratives/ that
+supports the overall purpose of our mission. The following are claimed
+benefits of Ibis that we will try to advocate[fn:claims]:
+
+1. Ibis as a movement to democratize social influence.
+2. Ibis as a better alternative to irrational individual donations.
+3. Ibis as a better alternative to centralized grantmaking and
+   nonprofit evaluation.
+4. Ibis as an incentive to promote volunteerism and social awareness.
+5. Ibis as a medium of exchange to facilitate otherwise socially,
+   morally, or culturally prohibitive economic transactions.
+6. Ibis as a method to increase funding to smaller grassroots
+   nonprofits.
+
+Content does not have to directly argue for any of these narratives,
+but you may find it helpful to at least attempt to trace the material
+back into one of these points. For instance, articles might explain
+the need to think about some of these problems, the mechanisms by
+which Ibis will improve the situation, or why we care about the
+resulting benefits.
+
+* Topic Categories
+:PROPERTIES:
+:CUSTOM_ID: categories
+:END:
+
+All Ibis content will fall under one of several categories:
+
+ - /Explanatory/: We will have multiple forms of to abstractly explain
+   the hypothesized benefits of Ibis in a more accessible format than
+   the whitepaper.
+ - /Research Summaries/: Much of the interesting research in this
+   field only exists as academic literature. Part of the value that
+   Token Ibis Inc. can provide to the world is to translate this dense
+   material into more accessible blog posts that simultaneously
+   support our vision. Eventually, we may supplement this category
+   with bits of our own research that pursue using public data.
+ - /Media Reviews/: As volunteers, many of us will be reading books,
+   listening to podcasts, etc., and it will be useful to summarize
+   these in reviews that reference back to Ibis when appropriate.
+   Strictly speaking, this content is not quite as useful as the
+   /Research Summaries/ since the original material is already meant
+   for public consumption. However, this will be a lower-effort (and
+   hopefully fun-ish) way to build content.
+ - /Nonprofit Focuses/: As we network and research more local
+   nonprofits, we will eventually want to push an Albuquerque-centric
+   message by doing focus articles for individual organizations. The
+   Ibis tie-back isn’t as critical for these; for all of this content,
+   the implication will simply be that these organizations deserve
+   funding and that Ibis can help make it happen, ala /Narrative 6/.
+   Also, this category will be an important strategic networking tool.
+ - /Random/: Finally, if you have a pressing desire to write about
+   absolutely anything else (as long as it’s not too controversial),
+   we can have a section that has no other purpose than to show off
+   how great our volunteers are[fn:volunteer].
+  
+* Types of Media
+Ibis will focus on the following types of media:
+
+- /Social Media/: We will post all original content to Twitter,
+  Instagram, and eventually Reddit, in particular. On Instagram and
+  Twitter, we will also share links to external media with 1-2 line
+  commentary.
+- /Blogging/: Blog posts will take up most of the Ibis volunteer time
+  in this thrust. The blog will cover the full range of topics in
+  Section [[#categories]].
+- /Videos/: We will produce various types of videos that will be used
+  for explanatory and marketing purposes.
+- /Podcasts/: Eventually, we may consider hosting a interview-style
+  podcast with guests affiliated with other nonprofits.
+
+* SEO Keywords
+:PROPERTIES:
+:CUSTOM_ID: seo
+:END:
+
+# remember to make mention about filenames for images
+
+Content should maximize Search Engine Optimization (SEO) from the
+beginning. For all written material, we are asking that writers make a
+conscientious effort to work in certain terms (phrases, really) so
+that we can quickly rise up in the Google search rankings. For blog
+posts, the goal is to work in about 5 of these terms; 2-3 of them
+should be mentioned more than once. Note that an easy and
+non-disruptive place to add terms is in the /file names/ of uploaded
+images and other media. Table [[tab:terms]] contains a list of target
+phrases, roughly ordered by search popularity.
+
+#+CAPTION: Target search terms.
+#+name: tab:terms
+|----+---------------------------------+----+------------------------------------|
+|  1 | universal basic income          | 17 | most efficient charities           |
+|  2 | charity navigator               | 18 | charity fundraising                |
+|  3 | effective altruism              | 19 | philanthropy research              |
+|  4 | fundraising sites               | 20 | innovative charities               |
+|  5 | fundraising websites            | 21 | charities in albuquerque           |
+|  6 | nonprofit marketing             | 22 | volunteer work in albuquerque      |
+|  7 | charities to donate to          | 23 | places to volunteer in albuquerque |
+|  8 | local charities                 | 24 | albuquerque nonprofit              |
+|  9 | charity organizations           | 25 | albuquerque startup                |
+| 10 | volunteer jobs                  | 26 | new mexico nonprofit               |
+| 11 | charity ratings                 | 27 | albuquerque poverty                |
+| 12 | charitable giving               | 28 | new mexico charities               |
+| 13 | volunteer albuquerque           | 29 | albuquerque philanthropy           |
+| 14 | poverty in new mexico           | 30 | new mexico philanthropy            |
+| 15 | nonprofit research              | 31 | universal basic philanthropy       |
+| 16 | nonprofit research organization |    |                                    |
+|----+---------------------------------+----+------------------------------------|
+
+* Content Style
+In the current stage, we are more concerned with quantity than
+quality. Once we have at least a few articles in each category, then
+we can start to see what works, what doesn’t, which need to be
+featured, etc. In keeping with the tradition, none of this content
+will have the author's name on it. However, that does not mean that
+you cannot put your personal touch and voice into this content; we are
+primarily a blog, not a newspaper. To differentiate ourselves from
+other nonprofits, we are trying to push three "soft" themes:
+
+- /Positivity/: Wherever appropriate, try to frame our mission as
+  building something valuable rather than fixing hopelessly intractable
+  problems.
+- /Humor/: One of Ibis's competitive advantages is that we do not have
+  to worry about accidentally trivializing disadvantaged
+  beneficiaries. Fire away your best jokes, if you have them.
+- /ABQ Pride/: Reminding readers that this movement is happening right
+  here in the 505, rather than on the fancy coast, will help with
+  awareness and funding.
+
+* Administrative
+As part of our 501(c)(3) submission, Token Ibis Inc. has stated that
+all volunteers must sign a Volunteer Agreement Form explicitly stating
+that all rights to content produced for the organization is the
+property of Token Ibis Inc. Of course, you will retain the ability to
+claim credit for it outside of official public company channels.
+Please get the form completed and submitted prior to creating any
+content. When submitting new content, please prepare the following
+information:
+
+- /Narrative/: One or more narratives from Section [[#narratives]]
+- /SEO Terms/: List and counts of SEO terms from Section [[#seo]]
+
+As we work to build the conceptual foundation for the Ibis movement,
+keep as much of this document as possible in mind, be creative, and of
+course, don't forget to have just a little fun.
+
+\vspace{0.5cm}\hrule\vspace{0.5cm}
+\center\emph{"The joke is mightier than the sword"} - Bassem Youssef
+
+* Footnotes
+[fn:claims] These are all official claims made by the organization. If
+you are skeptical about the proposed mechanisms, please talk to
+Thien-Nam to reserve your place in the re-education camp.
+[fn:volunteer] Technically illustrating the benefit of /Narrative 4/.
