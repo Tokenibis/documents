@@ -1,0 +1,53 @@
+#+TITLE: Volunteer Agreement Form
+#+AUTHOR: Token Ibis Inc.
+#+DATE: June 23, 2019
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \hypersetup{hidelinks=true}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \titleformat{\section}{\large\bfseries}{\Roman{section}. }{0pt}{}[\titlerule]
+#+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{\arabic{subsection}. }{0pt}{}
+
+I, _\hspace{5cm}_, am a volunteer with Token Ibis Inc. It is my intent
+that any Work I create in my capacity as a volunteer for Token Ibis
+Inc., will become the property of Token Ibis Inc., which will own full
+copyright in all such Work(s). To the extent that any Work(s) I create
+for Token Ibis Inc. is not a work for hire, I assign and transfer to
+Token Ibis Inc. all worldwide copyright interests in the Work(s), for
+the life of such copyright interests.
+
+In assigning all right, title, and interest in the Work(s) to Token
+Ibis Inc., I intend to transfer to Token Ibis Inc. the full ownership
+in and of the Work(s), including all rights of reproduction,
+distribution, display, and adaptation, and the right to create
+derivative work(s). All such rights apply without limitation to any
+print, electronic, multimedia, or other formats including computer
+code, HTML format for websites, distribution online by email, and all
+other methods of creating and distributing media. I agree to sign and
+deliver to Token Ibis Inc., either during or subsequent to the term of
+this Agreement, such other documents as Token Ibis Inc. considers
+desirable to evidence the assignment of copyright.
+
+In consideration of this Agreement, Token Ibis Inc. agrees to:
+
+- Allow me to include the Work or a reproduction of the Work in my
+  portfolio or other such compilation, to be shown to my prospective
+  employers or clients, and no other commercial or noncommercial use.
+  All such portfolio uses must include a notice of Token Ibis Inc.’s
+  copyright ownership.
+- Acknowledge my transfer of the Work to Token Ibis Inc. as a
+  charitable contribution.
+- Give full and complete credit in all versions of the Work(s).
+
+I warrant that any Work(s) I create pursuant to this Agreement are
+original and do not infringe any intellectual property rights or
+violate any laws related to libel, privacy, or otherwise. I agree to
+indemnify and hold harmless Token Ibis Inc. in any action arising out
+of, or relating to, these representations and warranties.
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{@{}p{2cm}p{8cm}@{}}
+Signature: & \hrulefill \\
+Name: & \hrulefill \\
+Date: & \hrulefill \\
+\end{tabular}
