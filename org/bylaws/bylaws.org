@@ -567,3 +567,15 @@ pages, as the Bylaws of this corporation.
 
 ADOPTED AND APPROVED by the Board of Directors on this 23rd day of
 June, 2019.
+
+\begin{tabular}{@{}p{}p{4in}@{}}
+& \\
+& \hrulefill \\
+& Thien-Nam Dinh, President - Token Ibis, Inc.
+\end{tabular}
+
+\begin{tabular}{@{}p{}p{4in}@{}}
+& \\
+& \hrulefill \\
+& Zachary Thompson, Secretary - Token Ibis, Inc.
+\end{tabular}
