@@ -164,11 +164,10 @@ phrases, roughly ordered by search popularity.
 In the current stage, we are more concerned with quantity than
 quality. Once we have at least a few articles in each category, then
 we can start to see what works, what doesn’t, which need to be
-featured, etc. In keeping with the tradition, none of this content
-will have the author's name on it. However, that does not mean that
-you cannot put your personal touch and voice into this content; we are
-primarily a blog, not a newspaper. To differentiate ourselves from
-other nonprofits, we are trying to push three "soft" themes:
+featured, etc. In the meantime, feel free to put your personal touch
+and voice into this content; we are primarily a blog, not a newspaper.
+To differentiate ourselves from other nonprofits, we are trying to
+push three "soft" themes:
 
 - /Positivity/: Wherever appropriate, try to frame our mission as
   building something valuable rather than fixing hopelessly intractable
