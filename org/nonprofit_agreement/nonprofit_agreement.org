@@ -1,0 +1,50 @@
+#+TITLE: Nonprofit Partnership Agreement Form
+#+AUTHOR: Token Ibis Inc.
+#+DATE: October 10, 2019
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{parskip}
+
+This Partnership Agreement, known hereafter as the "Agreement", is
+executed between Token Ibis Inc. and _\hspace{7cm}_, known hereafter
+as the "Nonprofit".
+
+On behalf of the Nonprofit, I hereby give permission to Token Ibis
+Inc. to use the following intellectual property belonging to the
+Nonprofit:
+
+- Trade Names
+- Logo Designs
+- Trademarks
+- Website Links
+- Company Descriptions
+- Any other information or content produced by the Nonprofit that has
+  been released to the public including, but not limited to, event
+  announcements, news articles, and blog posts.
+
+I hereby authorize Token Ibis Inc. to copy, exhibit, distribute and
+publish this material for any lawful purpose without payment or any
+other consideration. By signing this document, I understand that:
+
+- This material will be used exclusively to further the incorporated
+  mission of Token Ibis Inc.
+- Token Ibis Inc. will not release the materials to any other
+  nonprofit or commercial entity without seeking my permission.
+- At any time, I may request the removal of the Nonprofit's material
+  from public channels controlled by Token Ibis Inc. and expect the
+  request to be honored in good faith.
+  
+This Agreement will be valid in perpetuity or until the Agreement is
+explicitly terminated. The Nonprofit or Token Ibis Inc. may terminate
+this Agreement at any time for any reason.
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{@{}p{3cm}p{8cm}@{}}
+\\
+Signature: & \hrulefill \\
+Name, Title: & \hrulefill \\
+Date: & \hrulefill \\
+\end{tabular}
+
+# Templates used:
+# http://sflairexpo.com/wp-content/uploads/2013/09/SAFEE-2015-Sponsorship-Selection-Logo-Release.pdf
+# https://www.upcounsel.com/sponsorship-agreement
