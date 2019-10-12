@@ -44,6 +44,7 @@ Zachary (Zach) Thompson, Secretary: [Present|Absent]
 3. *[Special Agenda Item N]*: [description]
 
 ### Conclusion
+
 1. *Other business*: Discuss additional matters not prepared in the
    agenda.
 
