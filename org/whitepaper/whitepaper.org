@@ -1,737 +1,582 @@
-#+TITLE: Universal Basic Philanthropy
+#+TITLE: Universal Basic Philanthropy: A Scalable Model to Democratize Social Impact
 #+AUTHOR: Token Ibis
-#+DATE: June 23, 2019
+#+DATE: November 09, 2019
 #+OPTIONS: toc:nil title:nil
 #+LATEX_CLASS: custom
 
 #+BEGIN_abstract
-Although charity exists only by virtue of human compassion, we believe
-that the most effective opportunity for permanent progress lies in the
-unfeeling economic systems that shape its structure. In this document,
-we describe a qualitative approach to contextualize the mechanisms
-which have hindered the nonprofit sector to date. The explanation
-derives from a concise statement: nonprofits create impact but sell
-emotion. Our proposed solution is the novel conceptualization of
-Universal Basic Philanthropy, an economic assertion that charitable
-social influence is the natural right of all individuals. The claims
-are audaciously grand: the efficiency of free market donations,
-answers to the growing concern of wealth inequality, and the promise
-of the first scalable altruistic economy. The problem is evident, and
-the societal benefits are beyond compelling. Universal Basic
-Philanthropy can be more than an academic ideal. We intend to show
-that the reward goes beyond theory, that the time to initiate change
-is today.
+Society traditionally equivocates charitable giving exclusively with
+generosity and individual sacrifice. We argue that, although this is a
+classically valid view, the continued growth in size and impact of the
+modern social profit sector requires a radical rethinking of its
+financial foundations. Our solution is the novel conceptualization of
+Universal Basic Philanthropy: an economic assertion that social
+influence should be a civil right for all individuals. In this paper,
+we present a simple mechanism to implement our belief in public
+policy, speculate on the potential implications at a national scale,
+and propose a strategy for actionable research moving forward.
 #+END_abstract
 
 #+LATEX: \title{\vspace{2cm}Universal Basic Philanthropy}
 #+LATEX: \maketitle
-#+LATEX: \thispagestyle{fancy}
- 
+
 * Introduction
-Much of public debate concerning private charity donations addresses
-the question of how much to give. This issue remains divisive among
-Americans. However, regardless of public sentiment, contributes have
-hovered around a constant two percent rate for decades. Few Americans
-support changes to the tax deduction laws, which are an implicit
-signal by the government to encourage
-philanthropy[[cite:giving2018]][[cite:zinsmeister2016almanac]]. We do
-not take a stance on this debate. Instead, we would like to offer an
-outsider's perspective on a more universally agreeable challenge: how
-to make the existing two percent more effective. Improving efficiency
-in the nonprofit sector is a rich and complex field in its own
-right[[cite:herman2008advancing]]. This work has been instrumental in
-guiding the industry to date, and we do not presume to improve on its
-specific findings. However, by drawing cross-disciplinary inspiration
-from ideas in classical economics and recent trends in the high-tech
-industry, we cautiously claim to have stumbled upon something of a
-silver bullet. Universal Basic Philanthropy, or UBP, is a simple
-concept; so simple that we were surprised by the lack of mention in
-any formal or informal literature. The premise is this: every month,
-all adult citizens within a jurisdiction receive a guaranteed stipend
-in the form of a charity currency that they must eventually donate to
-a philanthropic cause. Nonprofit organizations then convert the
-donations back into standard money to fund their mission. Although
-such a system would have been impractical for most of human history,
-the current explosion of interest in novel digital currencies has not
-only made ideas such as UBP feasible but culturally marketable as
-well[[cite:bonneau2015sok]][[cite:nakamoto2008bitcoin]]. The purpose of
-this paper is to provide a high-level but comprehensive argument that
-UBP will be a paradigm-shifting model for social progress.
+:PROPERTIES:
+:CUSTOM_ID: introduction
+:END:
+
+General support for giving is a prominent characteristic of American
+sentiment toward philanthropy. However, differing viewpoints can
+emerge when considering philanthropy in the context of power and
+inequality. We frame our work with three initial statements that we
+hold to be true:
+
+1. Traditional philanthropy is plutocratic by design.
+2. Philanthropy has a valuable role in the economy /independently/ of
+   Point 1.
+3. Society should work to counteract Point 1 but maintain Point 2, if
+   possible.
+
+Although critics may question the feasibility, we do not feel that the
+objective of Point 3 is overly controversial. Indeed, the search for
+practical and incremental approaches to bring more voices into
+philanthropy is a vibrant and complex field in its own right. We do
+not attempt to add to this body of work. Instead, by drawing on
+cross-disciplinary inspiration from ideas in classical economics and
+recent trends in the tech industry, this paper documents a much
+longer-term vision to rethink the fundamental value of charitable
+giving. Universal Basic Philanthropy (UBP) is, to our knowledge, the
+first proposal to fully democratize philanthropy through market-based
+economic policy. The premise is this: every month, all adult citizens
+within a jurisdiction receive a free transactable charity stipend that
+they must eventually donate to a philanthropic cause. Nonprofit
+organizations can then convert the donations back into regular money
+to fund their mission. We hypothesize advantages to this scheme within
+three domains, which we will explore in greater detail in Sections
+[[#empowerment]], [[#allocation]], and [[#altruism]], respectively.
+
+1. /Individual Empowerment/: Serious implementation of democratic
+   values will lead to better public engagement and participation in
+   social issues.
+2. /Informed Giving/: Wider distribution of decision-making power will
+   lead to more informed and rational financial allocation.
+3. /Altruistic Economics/: The tokenization of philanthropy will create
+   a new economy of altruistic financial transactions.
+
+Our scheme is admittedly ambitious and idealistic. Regardless, we have
+two critical reasons to begin promoting this work now. First, there is
+something to be said about the value of pie-in-the-sky ideas for
+generating awareness about more practical and incremental approaches.
+Perhaps the most useful result of this work will be to draw public
+attention to nuanced topics around tax policies, accountability
+practices, and which organizations should be eligible for tax-exempt
+status. Secondly, in contrast with other similarly grand proposals,
+UBP researchers have a distinctly clear path to obtain initial
+research results. By leveraging the existing financial infrastructure
+in the nonprofit sector, we believe it is feasible to operate
+low-cost, high-fidelity experiments that can scale up to the city,
+state, and eventually national stage. In summary, the potential
+immediate impact of UBP research is considerable. We intend for this
+paper to provide a high-level but comprehensive starting point for
+further discourse.
+
+* Background
+:PROPERTIES:
+:CUSTOM_ID: background
+:END:
+
+Charitable giving continues to be a strong tradition in American
+culture. /Giving USA/ 2019 estimates $428 billion in individual
+donations [[cite:giving2019]] while the /World Giving Index/ ranks the
+US as 2nd among 140 countries in their latest report on average
+generosity [[cite:charitygift2019]]. However, while aggregate
+donations as a fraction of total GDP has remained steady, the
+proportion of contributions originating from wealthier donors has
+rapidly outpaced the rest of the population in recent years. Between
+the early 2000s and 2017, giving by donors earning more than $200,000
+per year grew from 30% to 52% [[cite:lindsay2017america]]. Conversely,
+between 2000 and 2014, the total number of households that donated at
+all fell from 66% to 55% [[cite:collins2018gilded]]. Although
+inequality in wealth and political power have become popular topics in
+mainstream discussion, inequality in philanthropy has not received the
+same treatment. Existing policy and culture may even encourage
+inequality. A report by the US Congressional Budget Office found that
+the top 11% of tax filers by income benefited from 76% of the $40.9
+billion of subsidies for that year [[cite:muthitacharoen2011options]].
+
+In a country that has traditionally favored progressive taxes in
+virtually all other areas, why has this regressive policy perpetuated
+for so long? Our best guess is that society still sees philanthropy
+primarily in terms of individual generosity and sacrifice. This view
+is not necessarily right or wrong. However, perhaps it is no longer
+sufficient in a time when the nonprofit sector has achieved a global
+impact on so many consequential areas like education, news, and
+research. A growing number of authors have written popular books
+drawing attention to this topic
+[[cite:mcgoey2015no]][[cite:callahan2017givers]][[cite:villanueva2018decolonizing]][[cite:giridharadas2018winners]][[cite:reich2018just]].
+The common message is this: philanthropy is power, and power demands
+scrutiny.
 
 * Related Work
-As a policy, UBP is comparable to three other progressive ideas in
-academic literature. Firstly, UBP is a specialization of the Universal
-Basic Income (UBI), a concept with a rich history of study that has
-recently garnered renewed interest. UBI proposes that, in place of
-welfare, the state should provide a steady sum of money to all adult
-individuals to cover minimal living expenses [[cite:van2004basic]].
-Researchers have analyzed experiments in UBI across several
-small-scale experiments in such settings as
-Alaska[[cite:goldsmith2002alaska]], Finland[[cite:koistinen2014good]],
-and Namibia[[cite:osterkamp2013basic]]. UBP also shares a common
-ideology with Richard Hasen's "democracy coupons"
-[[cite:hasen1996clipping]], which has been deployed in the city of
-Seattle since 2015[[cite:douglas2016local]]. Whereas democracy coupons
-promote egalitarianism in the plutocratic campaign spending process,
-UBP attempts to do the same for philanthropy. Finally, UBP's
+UBP is an subclass of participatory grant-making
+[[cite:gibson2017participatory]]. Whereas members in traditional
+participatory grant-making make collective decisions by voting, UBP
+prescribes a more scalable form of market-based individual
+decision-making. Outside of philanthropy, UBP is comparable to three
+other progressive ideas discussed in academic literature. First, it is
+a special form of Universal Basic Income (UBI), a concept with a rich
+history of study that has recently garnered renewed interest. UBI
+proposes that, in place of welfare, the state should provide a steady
+sum of money to all adult individuals to cover minimal living expenses
+[[cite:van2004basic]]. Researchers have analyzed experiments in UBI
+across several small-scale experiments in such settings as Alaska
+[[cite:goldsmith2002alaska]], Finland [[cite:koistinen2014good]], and
+Namibia [[cite:osterkamp2013basic]]. Secondly, UBP also shares a
+common ideology with Richard Hasen's "democracy coupons"
+[[cite:hasen1996clipping]][[cite:douglas2016local]]. Whereas democracy
+coupons promote egalitarianism in the plutocratic campaign spending
+process, UBP attempts to do the same for philanthropy. Finally, UBP's
 charitable unit of currency has similar properties with the concept of
 time banking, where members of small communities reciprocate labor as
-measured by time rather than market value[[cite:cahn1992time]]. UBP's
+measured by time rather than market value [[cite:cahn1992time]]. UBP's
 currency may enable some of the same benefits by promoting community
-well-being[[cite:lasker2011time]] and an individual sense of
-purpose[[cite:ozanne2010learning]] --- but at a much larger scale.
-
-* Roadmap
-We will first identify the problems that UBP promises to solve within
-the nonprofit sector. These take the form of three distinct effects
-that stem from one underlying cause. Next, we more formally describe
-the mechanics of UBP and how it can immediately mitigate the
-enumerated problems. The proceeding three sections will then cover
-categories of benefits:
-
-- UBP as a free-market mechanism for informed philanthropy
-- UBP as a solution for combating wealth and power inequality
-- UBP as the launching point for a parallel altruistic economy
-
-The paper concludes with a plan for the initial steps that Token Ibis
-as an organization intends to take in order to prove the efficacy of
-these ideas.
-
-* Problem Statement
-The scope of this work addresses the section of the nonprofit industry
-that relies on private donations, a stream of money that totaled $410
-billion in the United States in 2018[[cite:giving2018]]. This section
-identifies three distinct issues with the current state of the
-nonprofit sector. Throughout this paper, we will use the term
-"nonprofit" to reference only organizations or parts of organizations
-whose operation depends on this stream of freely given money. For
-example, most hospitals, although classified as nonprofits in the
-legal sense, receive most of their funding in exchange for the medical
-services that they provide. Although potentially relevant, we do not
-explicitly include these organizations in our discussion.
-
-** Irrational Causes
-Most people would agree that philanthropy comes from the heart rather
-than the mind. Although this is a comforting thought for many reasons,
-the fact remains that the heart has evolved to be a poor organ for
-judging effectiveness. Purely empathy-driven charity can incur steep
-opportunity costs at best and do more harm than good at
-worst[[cite:batson1995immorality]][[cite:bloom2017against]]. This
-realization has led to the Effective Altruism movement, which favors
-uncompromising utilitarianism as the ideal model for
-giving[[cite:singer2010life]]. Under the guidance of Peter Singer's
-philosophies, organizations such as GiveWell.com promote front-line
-nonprofits which can deliver the most "impact" for each
-dollar[[cite:navigator2009givewell]]. This approach appears sound in
-theory. However, is Effective Altruism, in every sense, effective? In
-one crucial measure, it is quite the opposite. Although researchers
-continue to investigate the culprit psychological mechanisms, the
-literature overwhelmingly agrees that empathy plays a stronger role
-than logic in charitable giving[[cite:cameron2011escaping]]. This
-result should come as little surprise. However, more concerning to us
-is a powerful secondary effect, first observed by Small et al. In this
-seminal study, researchers exposed individuals to three different
-types of solicitations and gaged their willingness to donate:
-
-1. A single identifiable victim of famine named Rokia
-2. Statistical information about many victims of the same famine
-3. Both (1) and (2)
-
-As expected, the first approach elicited more donations than the
-second. However, quite discouragingly, the first scenario also proved
-far more effective than the third. Small and her colleagues showed
-that not only is logic ineffective, but it is also harmful to the
-cause[[cite:small2007sympathy]]. The fact that emotion trumps logic in
-philanthropy is a quaint product of human nature. The fact that
-additional information is /detrimental/ indicates a strong possibility
-for deeper systematic problems.
-
-** Overhead
-The instinct of a loyal capitalist is to measure the competence of
-state and nonprofit organizations against the golden standard of the
-private sector. Typically, public perception, at least, will be found
-wanting[[cite:aaker2010nonprofits]]. The story is that these public
-service organizations lack a clear bottom line to align organizational
-incentives as well as the financial abundance to retain quality
-resources and skilled workers. We do not presume to state whether
-these critiques are valid. However, we claim that even if nonprofits
-did have the same level of talent, resources, and organzational
-structure, there is a second, more fundamental obstacle that will
-always place them at a disadvantage.
-
-** Indeterminate Success
-:PROPERTIES:
-:CUSTOM_ID: statement-indeterminate
-:END:
-In the private sector, the end goal for an organization is
-straightforward: make as much money as possible. More precisely, the
-single correct measure for the worth of a for-profit company is its
-aggregated expected future profits adjusted for uncertainty and a
-diminishing time horizon. There is no such magic measuring stick for
-nonprofits. A well-known issue is that quantifying social impact is a
-challenging task. Indeed, the measurement of impact is one of the most
-significant research questions in modern
-philanthropy[[cite:lee2015framework]]. However, even if research could
-create an ideal metric, a unit to measure social impact as precisely
-as the dollar measures profit, there is, once again, a second
-fundamental problem. Suppose that, for some given ideal measure of
-impact, /Org A/ services 100 individuals with an annual budget of
-$100,000 while /Org B/ services 1,000 individuals on an annual budget
-of $10,000,000. Which is the more successful endeavor that a startup
-/Org C/ should try to emulate? There is no definitive answer. In the
-private sector, this question is meaningless; everybody wants to be
-more profitable in the absolute sense. Efficiency is only a means, not
-an end. In contrast, nonprofits must deal with the two-dimensional
-measuring stick of total impact as well as low overhead. Society
-cannot agree on what an ideal nonprofit should look like, let alone
-how to build it.
-
-* Problem Explanation
-At first glance, these three problems might seem unrelated. However,
-we claim that each one traces back to the same consequential
-observation: *nonprofits create impact but sell emotion.* In the
-private sector, a company creates a product and sells a product. Cafes
-make coffee and sell coffee; restaurants make food and sell food. On
-the other hand, despite the unimaginably rich diversity of people and
-causes that they support, nonprofits only have two consumer products
-in their inventory: self-congratulatory delight or relief from
-unbearable guilt. It is this inconsistency between what nonprofits
-produce and what they sell that lies at the heart of problems.
-
-** *Irrational Causes*
-What is the correct rational amount that a person should donate to
-charity? The answer depends on the individual's utility function. For
-example, the founders of the Effective Altruism movement claim to
-adopt a utility function that values a stranger's life far more than
-an expensive vacation. Hence, the life strategy of an Effective
-Altruist is to live as long as possible, make as much money as
-possible, and save as many lives as possible. For the rest of us who
-are motivated by family, knowledge, status, comfort, fame, etc., the
-calculus is more straightforward: the rational amount we should donate
-is precisely zero. Nonprofit workers subconsciously understand this
-dilemma. Consider the language often used by fundraising
-professionals: "what is the /least/ that you can do to make a
-difference? Surely, the well-being of an innocent child is worth more
-to you than that expensive dinner?" Emotionally, this is a compelling
-argument. But what about next week's expensive dinner, and the week
-after that? Charities realize that there is no "right" amount. The
-best they can do is coax their benefactors into being impulsive for
-just long enough to engage in accidental altruism.
-
-** *Overhead*
-The need to create one product and sell another leads to substantial
-overhead costs. For instance, conventional wisdom in special events
-fundraising says that expenses can reach as high as one-third of the
-expected revenue and still qualify as a
-fundraiser[[cite:heyman2016nonprofit]]. For a dinner gala, ticket
-sales typically cover only the expenses--- The bulk of the profit
-comes from corporate sponsorship and future opportunities to ask for
-money. Think about what this implies: a $100 ticket to an event may
-only represent the /opportunity/ to contribute to the cause. Again,
-this is a struggle that is unique to the nonprofit sector. Consider
-how expensive shoes would be if shoe salespeople needed to operate
-galas, 5k runs, and mail campaigns just to put customers in the right
-mindset.
-
-** *Indeterminate Success*
-Finally, our approach provides context for the dichotomy between /Org
-A/ and /Org B/: the former is probably better at creating impact while
-the latter is better at selling. One is doomed to toil away at their
-work in efficient obscurity while the other is a scandal and collapse
-waiting to happen[[cite:tinkelman2009unintended]].
-
-* Approach
-We will preface our solution with a final piece of context. Most
-philanthropists view the decision to give to charity as a single
-atomic action. The entire chain of thought from empathy to
-self-sacrifice and eventual gratification gets compressed into a
-single transfer of currency. This view has been dominant throughout
-the extent of human history. Today, we suggest that it would be more
-helpful to view philanthropy as two distinct mental processes:
-
-- *Commitment* - The decision to donate
-- *Allocation* - The choice of recipients for the donation
-
-Although it may seem like a subtle distinction, the two mental
-processes are categorically different. The commitment step is
-necessarily emotional. By agreeing to give away their hard-earned
-income, donors must weigh the gratification of altruism against their
-wants and needs. The allocation step, on the other hand, need not be
-purely emotional. If we can only provide individuals with the
-privilege of allocation without the stress of commitment, then we can
-allow them to finally focus on the merits of impact[fn:foundations].
+well-being [[cite:lasker2011time]] and an individual sense of purpose
+[[cite:ozanne2010learning]] --- but at a potentially much larger
+scale.
 
 * Universal Basic Philanthropy
-Our solution is as grand as it is simple, and is perhaps appropriately
-named /Universal Basic Philanthropy/. In this scheme, we propose that
-at some level of governance, the state should fund and distribute a
-guaranteed charitable stipend to its constituents. For concreteness,
-we will suppose that the United States Federal Government allocates
-two percent of the national GDP to all citizens via a digital
-platform. This sum translates to about $150 per month per person as
-of 2019. Where UBP is the generic name of the distribution policy, we
-shall call the currency /Ibis/[fn:analogy]. The dynamics of this
+:PROPERTIES:
+:CUSTOM_ID: ubp
+:END:
+
+Our proposed model is /Universal Basic Philanthropy/. The scheme
+stipulates that at some level of governance, the state will fund and
+distribute a guaranteed charitable stipend to its constituents. Where
+UBP is the generic name of the distribution policy, we will refer to
+the unit of currency as a /philanthropy dollar/. Philanthropy dollars
+enjoy all of the flexibility of the US dollar (USD), with the
+exception that only registered nonprofits can extract its monetary
+value. Effectively, it creates a free-market infrastructure for
+individuals to make decisions about social profit without needing to
+consider the influence of traditional money. The dynamics of this
 system, enforced by a combination of legal and technical mechanisms,
-are illustrated in Figure [[fig:flow]] and informally summarized
-by the following seven rules:
-1. The state distributes Ibis in equal amounts to all qualifying
+are illustrated in Figure [[fig:flow]] and informally summarized by
+the following seven rules:
+
+1. The state distributes philanthropy dollars in equal amounts to all
    individuals.
-2. Entities (individuals or organizations) may purchase more Ibis
-   using USD at a fixed ratio exchange rate (e.g., 1:1).
-3. Entities may send Ibis to any other entity.
-4. Only a registered nonprofit organization may trade Ibis for USD at
-   an officially approved exchange.
-5. Entities must pay interest and capital gains on Ibis investments
-   with more Ibis.
-6. Entities may not exchange Ibis for USD or other forms of money on a
-   secondary market.
-7. Nonprofit organizations may not offer material goods or services in
-   exchange for Ibis donations.
+2. Entities (individuals or nonprofits) may trade USD for philanthropy
+   dollars at a fixed 1:1 exchange rate.
+3. Entities may send philanthropy dollars to any other entity.
+4. Only registered nonprofits may trade philanthropy dollars for USD
+   at an approved exchange.
+5. Entities may only pay interest and capital gains on philanthropy
+   dollar investments with more philanthropy dollars.
+6. Entities may never exchange philanthropy dollars for regular money
+   or material goods and services on a secondary market.
+7. Nonprofits may not offer regular money or material goods and services in
+   exchange for philanthropy dollars donations.
    
 #+name: fig:flow
 #+CAPTION: Flow of money in the UBP scheme.
 [[./figures/flow.png]]  
+   
+How much should UBP pay to each individual? A reasonably logical
+situation to consider is one in which the government eliminates the
+existing charitable tax deduction and redistributes the resulting
+revenue in a UBP program. Using the most recent estimates by the
+Congressional Joint Committee on Taxation, this amount would total
+roughly $20 per month per adult individual
+[[cite:joint2018estimates]]. However, the public may be amenable to a
+additional taxation if it allows them the "ability" to reduce their
+private giving. If all giving eventually flows through UBP in this
+way, then the government would be able to pay out closer to $150 per
+month per individual.
 
-UBP creates a market infrastructure for individuals to focus on the
-rational decision of allocation rather than the emotional struggle of
-commitment. Its tangible medium, the Ibis token, enjoys all of the
-flexibility of the US dollar with the exception that only registered
-nonprofit can extract its monetary value. With these simple tools, we
-can simultaneously eliminate each of the three problems that we
-identified.
+* Individual Empowerment
+:PROPERTIES:
+:CUSTOM_ID: empowerment
+:END:
 
-- *Irrational Cause* - By construction, the decision to allocate UBP,
-  which is given rather than earned, is categorically more rational
-  than the choice to both commit and allocate traditionally acquired
-  money. The result is smarter donations flowing toward causes with
-  the greatest need.
-- *Overhead* - By pushing a fixed amount of money to the nonprofit
-  sector at a national scale, the government alleviates the need for
-  the industry to invest heavily in fundraising. Nonprofits still have
-  to compete for funding with each other, but this fundraising and
-  marketing effort is more comparable to baseline competition in the
-  private sector.
-- *Indeterminate Success* - As a consequence of solving the
-  /irrational causes/ problem, the nonprofits that scale will be the
-  ones in the best position to market their work. We expect that
-  growth will eventually correlate more with effectiveness and less
-  with emotional salesmanship. The result is that the public can
-  finally agree on a single metric for evaluating nonprofits: total
-  impact.
-  
-The complementary ideas of UBP and Ibis together form the basis for
-our proposed philanthropic world order, one built on the principles of
-economics rather than idealism, one effective by design rather than
-hope. In this world, the power of donation and social influence is a
-right, not a sacrifice. The responsibility of informed social
-influence is a duty as sacred as democratic participation and
-community stewardship. This paradigm is the norm that we wish to
-advocate, one that addresses the root problems of the old while laying
-the foundations for a tantalizing future of genuine systematic
-progress.
+First, we view the benefits of UBP through the lens of democratic
+values. Our scheme explicitly places philanthropy under the umbrella
+of public funding. A question naturally arises: what is the role and
+importance of philanthropy in this model? The answer lies in the
+differences in dynamics between the traditional voting process and our
+market-based mechanism. Among other things, our work is the economic
+realization of a view expressed by Rob Reich about the role of
+foundations [[cite:reich2013foundations]]. Reich argues that since
+democracies must act at the discretion of the majority, democratic
+governments will never be able to adequately provide public goods that
+are too localized, controversial, or innovative to win the support of
+the "median" voter. Currently, such services are exclusively in the
+domain of traditional private giving.
 
-* Free Market Allocation Engine
+Our work proposes a mechanism to combine the democratic benefits of
+public funding with the merits of more flexible philanthropic
+decision-making. In effect, UBP is a complementary market-based
+extension to our civic power as citizens of a democratic state. For
+some value systems, the desirability of equality and democracy are
+intrinsic. As shown in Section [[#background]], social profit affects
+every aspect of society at a significant scale. There is a multitude
+of philosophical, moral, and sociological reasons why we may want to
+maximize public ownership of these institutions.
+
+However, individual empowerment may have more immediately obvious
+benefits as well. If UBP provides the public with a greater sense of
+empowerment in social profit, perhaps it will lead to greater
+engagement and volunteerism. A study by Fidelity supports the natural
+intuition that individuals who donated were also far more likely to
+volunteer. Although this data only shows a correlative link, one of
+the key contributions of our initial UBP study will be to measure the
+magnitude of the causal relationship. Any evidence that UBP could
+increase the national output of volunteerism, estimated to be worth
+$167 billion in 2018, would be a strong justification for public
+financing of the program [[cite:corporation2018volunteering]]. The
+final argument for UBP on the subject of individual empowerment
+relates to well-being and happiness. Separately, research has shown
+that happiness positively correlates with greater equality, giving,
+and volunteerism
+[[cite:alesina2011preferences]][[cite:dunn2008spending]][[cite:binder2013volunteering]].
+UBP aims to reinforce all three.
+
+* Informed Giving
 :PROPERTIES:
 :CUSTOM_ID: allocation
 :END:
-This section describes the first of three categories of societal
-benefits enabled by UBP. Currently, nonprofits receive money through
-one of two sources: grants from centralized grantmaking organizations
-and direct donations from individuals. UBP presents a more robust
-alternative that leverages the virtuous dynamics of a free market. At
-its core, UBP predicts that if society pushes enough money through
-interacting autonomous agents in the name of philanthropy, the results
-will be overwhelmingly positive.
 
-** Smart Money
-While grantmaking benefits from the input of expert decision makers,
-it suffers from the well-studied local knowledge problem[fn:local]. On
-the other hand, direct donations by individuals lack an explicit
-mechanism to aggregate information. As in democratic voting, the
-qualifications of the average participant roughly determines the
-effectiveness of the system as a whole. UBP is a market-based
-mechanism to align resources with knowledge in much the same way that
-capitalism tries to align money with talent. While all individuals
-receive an equal stipend, we should /not/ expect that everyone will
-donate the same amount. Remember: Ibis is allowed to change hands
-between individuals, allowing money to move from the people who have
-it to the people who want it. In the traditional economy, currency
-flows from the foolish and desperate to the clever and greedy. In the
-Ibis economy, it flows from the indifferent and uninformed to the
-passionate and engaged, a setup that is favorable to
-everyone [fn:scenario]. If the Ibis ecosystem can reach a point in
-which front-line volunteers serve as the endpoint for most of the
-country's philanthropic output, then what we would have is a robust
-free-market mechanism to both measure and reward nonprofits for
-demonstrable effectiveness.
+Whereas the previous section focused on the benefits of UBP for
+participating individuals, this section argues that it also improves
+the efficacy of the social profit sector itself. Traditional
+philanthropy suffers from at least two forms of inefficiency on
+extreme ends of the giving spectrum: impulsive, overly-emotional gifts
+on one end, and rigid, overly-analytical donations on the other. UBP
+mitigates both problems by better aligning funding with information.
+We anticipate that the money flowing into social profit as a whole
+will reflect more deliberate decision making that encodes
+higher-quality, local knowledge about the underlying issues.
+ 
+** Deliberate Decisions-Making
+At the first extreme, some everyday individuals donate almost
+exclusively based on intense emotions, perhaps in response to a moving
+advertisement or a stimulating social situation. This type of giving
+can be less desirable for three reasons. Unlike contributions from
+more informed donors, purely impulsive donations tend to add less
+useful information. Furthermore, appealing to these donors is
+expensive for nonprofits. Organizations often run high-cost
+fundraising events solely in the hope that a few first-time donors
+will someday turn into recurring, low-cost supporters of the cause.
+Historically, the literature overwhelmingly agrees that emotions are
+more effective than logic in motivating philanthropy
+[[cite:cameron2011escaping]]. Furthermore, a seminal paper by Small et
+al. sheds light on a secondary phenomenon: that adding rational
+deliberation to the decision-making process tends to reduce
+generosity. We conjecture that emotion plays such a dominant role
+because of the requirement for self-sacrifice. If basic economic
+theory is the purest form of rationality, then it follows that
+individuals will only donate when something induces them to act
+irrationally.
 
-** Promoting Engagement
-The majority of the benefits enumerated in this document cite
-inanimate economic mechanisms. However, we have little doubt that the
-most impressive initial effects will occur at the sociological level.
-Namely, the financial gift of philanthropy is the most effective and
-scalable method we can imagine to promote volunteerism. A 2015 study
-by Fidelity confirms our natural intuition that donating and
-volunteering are deeply intertwined. The researchers found that 79% of
-donors reported volunteering in the same year as compared to 25% of
-all Americans. Furthermore, 58% of individuals say they donated to an
-organization before volunteering, suggesting that money is a catalyst
-rather than an afterthought[[cite:fund2015time]]. If this correlation
-has even some causal power, then UBP will initiate a sustainable
-increase in volunteerism[fn:criticism].
+UBP is a value-agnostic policy that should enable more deliberate,
+rational giving without necessarily forcing it. In contrast to
+traditional philanthropy, UBP removes the need for self-sacrifice by
+explicitly separating the resources that people can use on themselves
+(regular money) from the resources that they can allocate for public
+benefit (philanthropy dollars). The effect uncovered by Small et al.
+does not apply here because there is no requirement for generosity in
+the first place. As a result, organizations and individuals who
+embrace carefully-deliberated decision-making will be on better
+footing. Unlike the Effective Altruism movement, UBP does not make any
+normative judgments about how emotions and rationality should inform
+personal values [[cite:singer2010life]]. It merely leaves room for
+optional deliberation by reducing the need for /impulse/ in the giving
+process. Whether people ultimately donate from the heart or the head
+is up to them. UBP supports both and allows them to sleep on it first.
 
-* Wealth Equality
-:PROPERTIES:
-:CUSTOM_ID: inequality
-:END:
-In its most recently reported measurement in 2016, The Federal Reserve
-Bank of Saint Louis document the highest GINI index for national
-wealth inequality in the modern era[[cite:fred2016gini]]. Wealth
-inequality is, of course, a highly complex and contentious topic
-within economics and political science. While we do not formally
-endorse any particular policies aside from vanilla UBP, we outline
-three reasons why variations on UBP may be an attractive tool in this
-space.
+** Local Knowledge
+On the other end of the spectrum, the institutional grant-making
+process performed by foundations, corporations, and governments may be
+analytical to a fault. The first reason is that the need for
+measurement incurs a nontrivial administrative cost that biases
+funding toward larger organizations with the resources to spare the
+overhead. The second reason follows partially from our discussion of
+the purpose of social profit in Section [[#empowerment]]. If the role of
+social profit is to complement the shortcomings of the state, then the
+most valuable nonprofits are characteristically small, personable, and
+innovative. These organizations, which might include school clubs,
+crisis lines, and hopeful idealists pedaling ideas with names like
+"Universal Basic Philanthropy," are precisely the most difficult to
+measure.
 
-** Democratizing Philanthropy
-:PROPERTIES:
-:CUSTOM_ID: inequality-democratizing
-:END:
-Although wealth inequality continues to be a popular topic in
-mainstream discussion, inequality in philanthropy is often ignored.
-Gifts from wealthy donors accounted for over a quarter of total
-nonprofit revenue in 2015 according to Giving
-USA[[cite:callahan2017givers]]. The trend is equally worrisome.
-Between 2003 and 2013, total contributions from individuals with a net
-income greater than $100,000 increased by 40% while contributions from
-the rest of the population declined by 34%[[cite:collins2016gilded]].
-This growing generosity by wealthy individuals is admirable at a
-personal level; better schools and museums than yachts and private
-jets. However, perhaps society as a whole should reevaluate a system
-in which a small fraction of affluent donors can unilaterally decide
-the future of education, news, health, and welfare for large sections
-of the population[fn:regressive]. Should philanthropy look more like
-capitalism, in which a person's influence is proportional to the sum
-of their financial assets? Or should it look more like democracy, in
-which a person's influence, in principle, is the same for every
-individual? While personal wealth predominately affects the owner,
-political and philanthropic influence both have consequences for
-society as a whole. We believe the answer is clear and claim that UBP
-is the single most elegant strategy to create a more egalitarian
-paradigm of social influence.
+Arguably, UBP facilitates a more natural way to aggregate information.
+Whereas traditional grant-making depends primarily on expert analysis
+by a handful of individuals, UBP can make better use of qualitative
+/local knowledge/ spread out through the entire population. Local
+knowledge, which may include personal experience with general social
+issues, interactions with a specific nonprofit, or second-hand
+information of either, informs the individual decision-making process.
+The arguments for this paradigm are analogous to arguments in favor of
+free-markets over central planning in traditional economics. However,
+there may be another positive secondary effect that is exclusive to
+UBP. Recall that UBP allows the exchange of philanthropy dollars
+between individuals. If philanthropy dollars someday trades on a
+wide-spread and active economy, a point which we argue for in Section
+[[#altruism]], then we expect that it will tend to flow toward people who
+are more interested in social profit. Supposing that these people are
+consequently more engaged and informed, then increasing their input is
+a clear win for smart philanthropy.
 
-** Wealth Redistribution
-While vanilla UBP reduces philanthropic inequality by design, the Ibis
-infrastructure as a whole provides a potential solution for the more
-general problem of wealth inequality. In 2019, rhetoric among the
-Democratic party for pre-Reagan-era taxes on the ultra-wealthy
-continues to escalate, most notably highlighted by Rep.
-Ocasio-Cortez's proposal for a 70% income tax[[cite:de2019cost]].
-Critics of such proposals point out concerns that these rates would
-prohibitively stifle incentives for economic growth. Although we at
-Token Ibis do not hold an official position concerning this policy, we
-can suggest a theoretical compromise. We propose that, after
-collecting the 70% income tax, the state gives back a significant
-fraction of the revenue to the individual in the form of an Ibis tax
-return. Call it "mandatory altruism." As a mechanism for combating
-wealth inequality, mandatory altruism would be equally effective as a
-traditional tax. On the other hand, while not as powerful as plain
-money, social influence can be a sufficient incentive on its
-own[[cite:blackburn2010giving]]. In /The
-Givers/[[cite:callahan2017givers]], David Callahan argues that
-philanthropy is often something of an afterthought for the ultra-rich
-after they have accumulated their fortunes in other industries. The
-result in yet another level of misalignment between means and
-knowledge. Our mandatory altruism scheme provides a tangible incentive
-for aspiring capitalists to apply their talent and business acumen
-toward social good even as they are building their more profitable
-enterpises[fn:contradiction].
-
-** Social Influence as Status
-:PROPERTIES:
-:CUSTOM_ID: inequality-status
-:END:
-Finally, we believe that Ibis may play a role in giving due credit to
-true philanthropists. Forbes magazine famously publishes a yearly
-report of the wealthiest men and women on Earth, a report that
-seemingly only exists to satiate our obsession with rich and powerful
-figures. We believe that the same publication measuring wealth in Ibis
-can have the same effect for promoting philanthropy. In a similar
-vein, there has been much debate over how to compensate successful
-nonprofit executives. Outspoken industry leaders such as Dan Pallotta
-believe the answer is to reward executives in the same way that the
-for-profit sector rewards their superstar
-managers[[cite:pallotta2009uncharitable]]. We respectfully disagree.
-The nonprofit sector depends on donor trust, implying the need for a
-level of self-sacrifice on the part of the employees. However, if
-organizations cannot reward their most distinguished workers with
-material wealth, then perhaps they can at least signal importance and
-status. A salary of $100,000 for an outstanding CEO, accompanied by a
-$400,000 bonus delivered in Ibis, is economic proof that the
-organization values its leader at $500,000. If nonprofit workers must
-sacrifice personal wealth for the greater good, we can at least offer
-them meaningful proof of their worth.
+As a final point, although we argue that UBP offers a definite
+improvement to over-reliance on grant-making institutions, we have no
+reason to believe that these organizations should have a less
+prominent role in a UBP-centric world. First, they appear well-suited
+to play the gate-keeping role needed to determine which nonprofits are
+eligible for funding. Secondly, we expect that many individuals will
+still choose to donate to expert-run foundations, especially those who
+value analytics or who prioritize large-scale issues like climate
+change. However, these foundations will now be more accountable to the
+public than to a concentrated source of wealth.
 
 * Altruistic Economics
-[[#allocation]] and [[#inequality]] address reforms that Ibis and UBP
-enable within the existing establishment. However, perhaps the most
-exciting feature of Ibis is its ability to foster new institutions and
-financial patterns altogether. The setting for this opportunity lies
-in the intersection between money and human psychology. Although we
-recognize money as an indispensable component of modern society, most
-people hold some level of stigma against excessive greed and
-indulgence. This stigma necessarily holds across all forms of money,
-from fiat to gold and Bitcoin. Ibis promises to be a large-scale
-exception to the rule. With the advent of the world's first charitable
-currency, we see the potential for an incarnation of money that is
-fundamentally free from greed and selfishness, in effect, an otherwise
-fully-featured medium of exchange that fosters exclusively altruistic
-interactions.
-
-** Direct Exchange
 :PROPERTIES:
-:CUSTOM_ID: altruistic-direct
+:CUSTOM_ID: altruism
 :END:
-The opportunity to break down monetary stigma begins with direct
-exchanges between individuals. In particular, we are interested in
-situations where an economic transaction fails to take place due to
-social or moral complications.
 
-- Alice needs her friend Bob to help her with homework, but he needs
-  some extra motivation.
-- Carol wants to buy a used desk from her friend, Dave, but has no
-  idea how much to pay.
-- Erin needs to give away possessions that belonged to her recently
-  deceased husband, Frank, but it feels wrong to sell it for cold,
-  hard money.
-- Grace is a casual gambler, but her state places strict regulations
-  on local casinos.
-- Heidi is an amateur political guru who wants to bet on Ivan2020's
-  platform on UBP, but she ran into federal laws banning political
-  gambling[[cite:ozimek2014regulation]].
-- Judy wants to buy Mike's concert ticket, but cannot legally offer a
-  different price higher than the original
-  sale[[cite:nmsa2015ticket]].
+Our third and final hypothesized benefit of UBP is its potential to
+catalyze a scalable, economically well-defined ecosystem that we call
+/The Altruistic Economy/. Informally, a simplistic view of free-market
+economics predicts that every time money should change hands, it does.
+In reality, people frequently face social or ethical considerations
+that add friction to the otherwise free flow of money. Examples
+include trading favors between friends and betting on political
+elections. For most of these cases, we suggest that the relevant
+psychological block is the perception of greed and selfishness on the
+part of the potential beneficiaries. By construction, philanthropy
+dollars have the potential to become the first form of widely-accepted
+currency that is incapable of enabling greed or selfishness, at least
+in the narrow financial sense. If so, it could then serve as a unique
+medium of exchange for the socially and ethically-charged transactions
+mentioned before. We can extrapolate this intuition to consider brand
+new classes of altruistically-enabled interactions. The proceeding
+subsections describe a non-exhaustive list of possibilities. Although
+we do not expect most of them to hold up perfectly in a real-world
+setting, we present them all as useful thought experiments.
 
-In another class of interpersonal interactions, individuals exchange
-money primarily as a means to signal appreciation. This mechanism is
-reminiscent of the salary status signaling mentioned in
-[[#inequality-status]].
+** New Individual Exchange
+This category describes exchanges between two private individuals. In
+addition to the "trading favors" use case described earlier, examples
+of transactions might include birthday presents, donations "in lieu of
+flowers," and science fair awards.
 
-- Nick is a middle school teacher who wants to give out monetary
-  science fair awards, but he is unsure about local policies for
-  paying underage students.
-- Olivia runs a bug bounty program for a large tech company. Although
-  her company hands out millions of dollars in bounties, the weekend
-  bounty hunters are working for far less than minimum wage, and she
-  realized that they are more interested in reputation than material
-  gain.
-- Oscar is going to attend a funeral and wants to share his
-  sympathies, but he feels that bringing more flowers would be a waste
-  of money.
-- Pat needs to buy a birthday gift for his girlfriend, Sybil, but he
-  is a practical man and does not want to overspend to prove his
-  commitment[fn:modern].
-- Trent is trying to increase user reviews on his e-commerce site and
-  is trying to offer $1 credit for each submission. Trent's plan is
-  currently failing and he wonders if there is some other way he could
-  convince people to leave feedback[fn:ecommerce].
+** Supplementary Compensation
+Many professionals likely accept lower pay to work in a mission-driven
+field. Currently, this collective sacrifice is a net benefit for
+society. Supposing that base salary stays the same in a UBP-adjusted
+world, companies might choose to make up the difference in the form of
+a supplementary philanthropy dollar "bonus." This form of compensation
+serves to empower the worker and signal their actual economic worth to
+society. However, 100% of the money would stay in the social profit
+sector. For this mechanism to be effective, we would need to implement
+cultural or legal expectations to prevent the worker from donating
+right back to their employer.
 
-Each of these examples represents generic situations in which Ibis
-likely serves as a superior medium of exchange to traditional money.
-The cases we listed are far from comprehensive, and one of the more
-exciting aspects of a UBP/Ibis future is the potential for unexpected
-business models to emerge. Here is a small taste: in 2015, NPR's
-Planet Money podcast reported a story on Haystack, an app that tried
-to optimize public parking. The app worked by allowing drivers who
-were pulling out from crowded parking spaces to sell their vacated
-spot to drivers who were pulling in. Although the company was, by most
-measures, an entrepreneurial success, the operation was eventually
-shut down due to public outrage over its core business strategy:
-generating financial profit from free public
-goods[[cite:money2015episode]]. The Haystack story represents a
-victory for ordinary human sensibilities at the price of economic
-efficiency. We believe we can revive the Haystack model, but this time
-with Ibis. By removing greed from the equation, Ibis can enable a real
-economic solution to a multi-billion dollar parking industry. We
-suspect that Haystack is only one of a vast space of business models
-that Ibis can unlock.
+** Social Profit Banking 
+Some individual will want to store their philanthropy dollars for
+later use. In theory, banks could accept philanthropy dollar deposits
+and loan them out to nonprofits at a lower interest rate than regular
+money. They might then kick back some of this revenue to the
+depositor. By Rule 5 of Section [[#ubp]], no parties can earn a regular
+profit off this process, so the bank must either provide the service
+"altruistically" or must itself be a nonprofit.
+ 
+** Tax Rebates
+Debates about wealth redistribution often revolve around the value of
+equality on one side and the need for economic incentives on the
+other. Philanthropy dollars offer an appealing middle ground. In this
+scheme, the government would levy a progressive tax on higher income
+brackets. However, rather than collect for revenue, it would
+immediately pay it back to the same individual as a philanthropy
+dollar rebate. Assuming that social profit has some redistributive
+effect and that philanthropy is a valid incentive, then such a rebate
+would theoretically be appealing to both sides of the debate.
 
-** Banking
-:PROPERTIES:
-:CUSTOM_ID: altruistic-banking
-:END:
-Banking is another sector with abundant opportunities for innovation
-under the UBP/Ibis ecosystem. As with standard money, recipients of
-UBP may not want to spend their Ibis every month, opting instead to
-save their income for grander or more personally meaningful
-donations[fn:savings]. We expect that consumer banking services will
-emerge to fill the need for savings and checking accounts. These
-institutions will provide convenient money management services on the
-consumer side while using the deposits to offer low-interest loans to
-nonprofits. Since this agreement takes place under the Ibis umbrella,
-interest payments to any party are legally required to take the form
-of more Ibis, effectively preventing any individual or for-profit
-entity from receiving traditional financial gain. The institutions
-providing these services will be some combination of conventional
-banks looking to earn positive PR and philanthropically motivated
-nonprofit enterprises in the mold of our Ibis parking app startup from
-[[#altruistic-direct]]. As Muhammad Yunus so compelling demonstrated,
-the application of finance to charitable causes can be as exciting as
-it is impactful[[cite:yunus2007banker]]
+** New Business Models
+In the same way that philanthropy dollars facilitate personal
+transactions that may be socially or ethically problematic, it could
+do the same for some businesses. Easily conceivable models are
+philanthropy casinos and philanthropy ticket resale. However, much
+more exotic possibilities exist. We reference an episode of NPR's
+Planet Money podcast as just one example [[cite:money2015episode]].
 
-** Venture Philanthropy
-It is fitting that we end the body of this discussion in the most
-relevant area for Token Ibis as an organization. Innovation thrives
-when the current establishment provides daring newcomers with the
-means to build their ideas. In the current system, an aspiring
-nonprofit startup only has one way to obtain those means: by begging.
-This model is problematic for Token Ibis. We have no photogenic
-constituents or dire current events to aid in our fundraising.
-However, what we have is an immensely valuable and economically
-(non)profitable idea. In a future in which we've succeeded, the next
-generation of aspiring social entrepreneurs will have full access to
-the vibrant ecosystem of angel investors and venture firms that their
-for-profit counterparts enjoy today. Investors who see promise in a
-startup will have the opportunity to purchase equity in exchange for
-startup capital. If the enterprise becomes wildly successful, it will
-eventually earn more direct donations than it needs to operate and pay
-out dividends to its shareholders. All of this takes place under the
-Ibis umbrella. As in [[#altruistic-banking]], none of the parties gain
-a single cent of monetary gain. What they do receive is proof of their
-business acumen in the nonprofit sector accompanied by the returns to
-create even more social influence for the benefit of the greater good.
-In a world in which nonprofit equities are commonplace, it follows
-that we will see the rise of nonprofit bonds, publicly traded
-nonprofits, shorts, and nonprofit mutual funds[fn:caution]. Long
-influenced by giants of the finance and tech industries, the nonprofit
-sector might soon get its own Silicon Valley and its own Wall Street.
+** Social Business
+A social business, as defined by Muhammad Yunus, is a financially
+self-sustaining business that seeks to maximize social profit.
+Although it can raise capital by issuing shares of equity, the total
+sum of dividends paid out in its lifetime can at most match the
+principle investment [[cite:yunus2010building]]. As currently defined,
+this setup implies that a social business can never make a profit.
+Under our model, social businesses can now pay out philanthropy dollar
+dividends to reward investors without compromising their
+mission-driven purpose.
 
-* A Path Forward
-At a theoretical level, the ambition of the ideas in this paper lies
-somewhere between bold and absurd. In practice, there are myriad
-reasons why even good intentions are doomed to fail, especially given
-the magnitude of political and cultural changes proposed by UBP.
-However, Rome was not built in a day. Before Universal Basic Income
-was championed by the likes of Elon Musk and Mark
-Zuckerberg[[cite:clifford2017billionaires]], before it headlined the
-platform of a U.S. presidential candidate[[cite:yang2018war]], UBI was
-best described as series of hopeful experiments. If our survey is
-accurate, then the concept of UBP is much earlier in its life than UBI
-was at the turn of the century. There is much work to be done. The
-mission of Token Ibis is to prove the social value of Universal Basic
-Philanthropy at a meaningful scale. Our task is threefold:
+** Social Impact Bond
+A social impact bond is an agreement between a large public
+stakeholder such as a government and a contractor. They are funded by
+private investors and structured in such a way that repayment is
+contingent on the progress of the measurable social problem the
+contractor promises to address. For instance, investors might bet on
+some agency to reduce recidivism among a population of recently
+incarcerated individuals [[cite:nicholls2013peterborough]]. Although
+this tool already works with regular money, allowing philanthropy
+dollars investments would open the possibility for more sensitive
+social issues than would otherwise be acceptable.
 
-1. Raise generic philanthropic funds from interested donors
-2. Establish collaborative ties with local nonprofits
-3. Distribute UBP to members of a closely interacting population. We
-   have identified colleges as an ideal setting for our study.
+** Awareness Market
+A prediction market is a financial instrument that allows speculators
+to bet on the outcome of future events. We propose /awareness markets/
+as a way to leverage this instrument for spreading awareness about
+critical social statistics. For instance, an investor might stake
+money to answer the following question: "What percentage of children
+in New Mexico will be living above the poverty line by 2022?" Although
+speculation on such issues with regular money would be unethical,
+speculating with philanthropy dollars is likely acceptable. An active
+awareness market would leverage the stimulating psychology of betting
+to aggregate information on socially relevant measurables.
+Furthermore, the awareness market might prove to be a useful financing
+tool. In the hypothetical resolution of the previous example, either
+more children would leave poverty than initially expected, or the
+investor would earn a net profit of philanthropy dollars to contribute
+to the cause.
 
-The concrete implementation of our system is a custom web application
-for digital payments, donations, and peripheral
-engagement[fn:experimentation]. Under this setup, we have the full
-flexibility to conduct randomized trials for answering crucial
-research questions.
+* Challenges and Best Practices
+In this section, we will present considerations for critical
+challenges and best practices in maintaining the integrity of the
+system. We make an underlying assumption that UBP will operate
+exclusively on a digital payment platform sanctioned by the federal
+government. We feel this is a reasonable assumption for the future
+given the growing interest in novel payment technologies
+[[cite:nakamoto2008bitcoin]][[cite:bech2017central]]. Although we will
+propose hard legal and technological solutions to handle some of these
+challenges, the hope is that emerging cultural norms will do the heavy
+lifting.
 
-- Does UBP increase engagement?
-- Does UBP promote more rational giving?
-- Does Ibis flow toward users who are more passionate, qualified, and
-  engaged in nonprofit?
-- Does the flow of Ibis correlate with edges in the social network?
+** Gate-Keeping
+The gate-keeping challenge is the task of maintaining the list of
+nonprofits eligible to receive donations. By improving access to
+grassroots funding, UBP would likely incite an increased interested in
+nonprofit startups. A fair but effective gate-keeping process serves
+three primary purposes:
 
-Token Ibis offers the most long-term value as a rigorous testbed for
-evaluating UBP. However, despite this prioritization on research, we
-cannot lose sight of the immediate potential for UBP to benefit the
-community by promoting profoundly new levels of connection between
-donors, distributors, and nonprofits. We look forward to witnessing
-the fruits of an impact-focused local nonprofit ecosystem, at the
-indicators of empowerment when disadvantaged school children can one
-day exercise their right to social influence. Regardless of political
-cooperation or academic consensus, we intend to see Ibis to its full
-potential.
+- Prevent fraud by screening out attempts to launder philanthropy
+  dollars into regular dollars.
+- Prevent waste by screening out redundant startups that will
+  needlessly draw resources from established organizations.
+- Maintain solidarity by ensuring that the public as a whole supports
+  most of the causes on the list.
+  
+The first gate-keeping strategy we propose is to leverage the
+capabilities of existing grant-making organizations. Unlike open-ended
+considerations about value systems and qualitative impact,
+gate-keeping questions about legal compliance, financial health, and
+managerial qualifications map well to the analytical expertise found
+in these institutions. Another strategy is to extend the existing
+concept of fiscal sponsorship. Using this approach, governments would
+require prospective nonprofit startups to gather some minimum number
+of "sponsorships" from established organizations. This method raises
+the barrier of entry while encouraging collaboration and preventing
+redundancy. A combination of both approaches is likely to be the most
+effective. By formalize these relationships on the same digital
+platform, we can use data analysis to detect suspicious behavior. For
+instance, algorithms might identify tightly-coupled networks of
+organizations with a high rate of historical abuse or flag obscure
+nonprofits that only ever receive donations from a few recurring
+individuals.
+
+** Donation Integrity
+By empowering a broad base of donors who no longer need to
+self-sacrifice, UBP increases the incentive for unethical donation
+solicitation. Organizations might ask for "donations" from the
+individuals that they serve in exchange for preferential treatment.
+More innocuously, fundraisers might try to raise philanthropy dollars
+by selling t-shirts or gala tickets. The IRS currently regulates this
+behavior for tax exemption purposes under quid pro quo laws. In our
+model, it is a violation of Rule 6 of Section [[#ubp]]. In general, we
+expect that culture pressures will mitigate most of the abuse.
+However, it may be worth considering a more technological solution
+that protects the privacy of donors from the organizations to which
+they choose to donate.
+
+** Transactional Integrity
+All benefits of UBP vanish if individuals can turn around and trade
+their philanthropy dollars for regular dollars or equivalent material
+value, hence the need for Rule 7 of Section [[#ubp]]. Public policy
+should, at the very least, be able to ban large-scale activity
+facilitated by upstanding institutions. Since philanthropy dollars
+would appear to make for a poor black-market commodity, we suspect
+that this measure alone will be sufficient to preserve the
+transactional integrity of the system. At smaller scales, there is a
+fine line between faceless "secondary markets" and the type of one-off
+personable exchanges described in Section [[#altruism]]. We leave the
+issue of defining the distinction for future public discussion.
+
+* Research Strategy
+We now propose a strategy to study the essential effects of UBP at an
+actionable scale. The experiment requires cooperation from three
+groups of stakeholders:
+
+- /Donors/: Simulate the government by providing a distant source of money.
+- /Local Nonprofits/: Simulate all nonprofits by representing a balanced cross-section of causes.
+- /Students/: Undergraduate college students simulate the public as a whole.
+  
+In essence, the experiment entails collecting money from donors to
+give to students for allocation to local nonprofits. The timeline
+would be on the order of 6-12 months or more. Students would interact
+on a digital payment app that allows them to send and donate
+philanthropy dollars, communicate with other students, read news and
+events, and establish social-networking connections by "following"
+other users. By integrating these features with a data collection
+infrastructure, we can quantitatively measure the potential effect of
+UBP on general behavior. A basic experiment would separate students
+into two separate groups: one that receives UBP and a control group.
+To ensure that the control group still has some incentive to use the
+app, the experiment facilitator should agree to match any freely-given
+donations up to the UBP amount. We can now ask the following research
+questions:
+
+- Does the UBP group engage more in social issues as measured by app
+  activity?
+- How does the distribution of donations differ between the groups
+  with respect to organizations and causes?
+- In the UBP group, does the flow of transactional philanthropy
+  dollars tend to go toward students who are "more informed" as
+  measured by app activity?
+- Given A/B testing between emotion and rational solicitations, is the
+  UBP group comparatively more receptive to the latter?
+- What is the velocity of money for philanthropy dollars?
+- How do social network connections, as defined by "following" links,
+  predict giving patterns?
+  
+This list represents the most immediate questions concerning the
+causal effect of UBP. However, we note that UBP is a convenient excuse
+to more generally study philanthropy. Such a setup could help answer
+other questions about the psychology of giving on a unique platform
+that is more natural than laboratory testing but more observable than
+tax return analysis.
 
 * Conclusion
-In this work, we contextualize the systematic shortcomings of the
-nonprofit sector under one fundamental insight, present a novel
-solution, and illustrate the new art of the possible under our
-currency-driven model. Although the endeavor is unapologetic in
-idealism and audacious in scale, our hope is this paper, in
-conjunction with our entrepreneurial efforts, will serve as a
-sufficient catalyst for the change that is to come.
+In this document, we present an initial conceptual framework for
+discourse on Universal Basic Philanthropy, a market-based policy to
+democratize social impact at the national scale. We argue that the
+modern state of social profit warrants reconsideration of its
+underlying financial mechanisms. UBP offers theoretical improvements
+to the existing system through individual empowerment, informed
+giving, and the creation of a novel class of altruistic economics.
+Finally, UBP is a readily-testable model that we propose to implement
+on a local scale to empower students. Our organization has taken the
+first steps toward this goal in the area of app development and
+connection building. In conjunction with the work ahead, we hope that
+this paper will help catalyze mainstream interest in the promising
+future of social profit.
 
 #+LATEX: \bibliographystyle{abbrv}
 #+LATEX: \bibliography{references.bib}
-#+LATEX: \appendix
-
-* Footnotes
-[fn:foundations] Private foundations are an excellent modern day
-example for studying the distinction between charitable commitment and
-allocation. When Bill and Melinda Gates make their annual decision to
-donate /X/ billions of dollars to "philanthropy," it is an occasion
-for praise and fanfare which has little basis on rationality. What the
-Gates Foundation does with the money, however, is a thoughtful and
-analytical process for the betterment of civilization. From this
-perspective, UBP is a way to leverage technology for all individuals
-to run their private foundation.
-[fn:analogy] Ibis is to the dollar as UBP is to Universal Basic
-Income. One is a unit of currency and the other is a governance
-policy. Ibis is a neutral name, and our process for choosing it was
-about as rational as the average charity donation.
-[fn:local] We use this terminology to refer to the phenomenon by which
-centralized decision makers, despite their superior qualifications and
-education, struggle to use the local knowledge available to actors at
-the ground level[[cite:hayek1945use]].
-[fn:scenario] For concreteness, consider a hypothetical relationship
-between Alice, the wealthy regional manager of some corporation and
-Bob, her college-age nephew who actively volunteers through his
-university. Alice has an abundance of money to donate on top of her
-UBP but very little time to actively engage in charity. Bob has the
-time and education, but little money. Eventually, we would expect that
-some Ibis gets transferred from Alice to Bob, perhaps in the form of
-birthday presents or supplementary payments for babysitting services.
-We would not expect that Ibis should ever flow in the opposite
-direction.
-[fn:regressive] As a side note, we point out that the existing policy for
-charitable tax deduction disproportionally benefits the wealthy by
-design.
-[fn:criticism] An early criticism we have received on UBP is that it
-removes the genuine humanity from a freely given donation. Our view is
-that cold, hard, money is a poor substitute for humanity; people can
-get far more psychological benefits from volunteering their time
-instead. Let money be money, and let human connections be human
-connections.
-[fn:contradiction] We should point out that the suggestions of this
-section stand in direct opposition to the ideas in
-[[#inequality-democratizing]]. However, we argue that both are an
-improvement to the current situation and believe that either might be
-useful for future policymakers.
-[fn:modern] Both the funeral and birthday examples are similar to
-existing popular practices. While funeral donations "in lieu of
-flowers" have a longer history, digital platforms such as Facebook
-have begun investing in birthday fundraisers [[cite:ceballosdigital]].
-A number of smaller organizations also offer charity gift cards
-[[cite:charitygift2019]][[cite:globalgiving2019]][[cite:tisbest2019]].
-We are immensely encouraged by all of these projects and view them as
-important precursors to a more unified Ibis (or Ibis-like)
-infrastructure.
-[fn:ecommerce] The connection between this example and Ibis is
-probably the least intuitive. The thought process is this: one dollar
-is just one dollar. However, in the context of an already altruistic
-action like leaving product reviews, perhaps one dollar of Ibis
-attaches just enough additional moral encouragement to perform the
-original altruistic action in the first place.
-[fn:savings] In 2016, the Federal Reserve reported that the mean
-household income in the U.S. was $102,700. The mean household wealth
-held in bank accounts was $40,200 [[cite:bricker2017changes]]. A
-similar income/savings ratio for UBP would imply a $160 billion market
-for Ibis banking.
-[fn:caution] Note that these suggestions depend on the assumption that
-UBP adequately addresses the problem from[[#statement-indeterminate]].
-The only situation in which we advocate for such complex financial
-setups is one in which money is an acceptably accurate proxy for
-nonprofit impact.
-[fn:experimentation] Along with the core payment platform, our
-application features social media integration along with integrated
-nonprofit news feeds and event postings. Together, these additional
-components provide valuable data as natural proxies for engagement and
-social network context, respectively.
