@@ -89,7 +89,7 @@ Charitable giving continues to be a strong tradition in American
 culture. /Giving USA/ 2019 estimates $428 billion in individual
 donations [[cite:giving2019]] while the /World Giving Index/ ranks the
 US as 2nd among 140 countries in their latest report on average
-generosity [[cite:charitygift2019]]. However, while aggregate
+generosity [[cite:charities2016world]]. However, while aggregate
 donations as a fraction of total GDP has remained steady, the
 proportion of contributions originating from wealthier donors has
 rapidly outpaced the rest of the population in recent years. Between
@@ -178,7 +178,7 @@ the following seven rules:
    exchange for philanthropy dollars donations.
    
 #+name: fig:flow
-#+CAPTION: Flow of money in the UBP scheme.
+#+CAPTION: Flow of money in the UBP model. White arrows represent regular money and yellow arrows represent philanthropy dollars
 [[./figures/flow.png]]  
    
 How much should UBP pay to each individual? A reasonably logical
