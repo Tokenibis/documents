@@ -1,3 +1,4 @@
 org/**/*.bbl
 org/**/*.pdf
 org/**/*.tex
+org/**/*.ent
