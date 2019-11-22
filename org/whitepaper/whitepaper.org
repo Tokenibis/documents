@@ -256,7 +256,7 @@ We anticipate that the money flowing into social profit as a whole
 will reflect more deliberate decision making that encodes
 higher-quality, local knowledge about the underlying issues.
  
-** Deliberate Decisions-Making
+** Deliberate Decision-Making
 At the first extreme, some everyday individuals donate almost
 exclusively based on intense emotions, perhaps in response to a moving
 advertisement or a stimulating social situation. This type of giving
@@ -408,7 +408,7 @@ philanthropy casinos and philanthropy ticket resale. However, much
 more exotic possibilities exist. We reference an episode of NPR's
 Planet Money podcast as just one example [[cite:money2015episode]].
 
-** Social Business
+** Social Businesses
 A social business, as defined by Muhammad Yunus, is a financially
 self-sustaining business that seeks to maximize social profit.
 Although it can raise capital by issuing shares of equity, the total
@@ -419,7 +419,7 @@ Under our model, social businesses can now pay out philanthropy dollar
 dividends to reward investors without compromising their
 mission-driven purpose.
 
-** Social Impact Bond
+** Social Impact Bonds
 A social impact bond is an agreement between a large public
 stakeholder such as a government and a contractor. They are funded by
 private investors and structured in such a way that repayment is
@@ -431,7 +431,7 @@ this tool already works with regular money, allowing philanthropy
 dollars investments would open the possibility for more sensitive
 social issues than would otherwise be acceptable.
 
-** Awareness Market
+** Awareness Markets
 A prediction market is a financial instrument that allows speculators
 to bet on the outcome of future events. We propose /awareness markets/
 as a way to leverage this instrument for spreading awareness about
