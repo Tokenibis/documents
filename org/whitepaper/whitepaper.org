@@ -4,7 +4,8 @@
 #+OPTIONS: toc:nil title:nil
 #+LATEX_CLASS: custom
 
-#+BEGIN_abstract Society traditionally equivocates charitable giving exclusively
+#+BEGIN_abstract 
+Society traditionally equivocates charitable giving exclusively
 with generosity and individual sacrifice. We argue that, although this is a
 classically valid view, the continued growth in size and impact of the modern
 social profit sector requires a radical rethinking of its financial foundations.
@@ -55,20 +56,19 @@ three domains, which we will explore in greater detail in Sections [[#empowermen
 3. /Altruistic Economics/: The tokenization of philanthropy will create a new
    economy of altruistic financial transactions.
 
-Our scheme is admittedly ambitious and idealistic. Regardless, we have two
-critical reasons to begin promoting this work now. First, there is something to
-be said about the value of pie-in-the-sky ideas for generating awareness about
-more practical and incremental approaches. Perhaps the most useful result of
-this work will be to draw public attention to nuanced topics around tax
-policies, accountability practices, and which organizations should be eligible
-for tax-exempt status. Secondly, in contrast with other similarly grand
-proposals, UBP researchers have a distinctly clear path to obtain initial
-research results. By leveraging the existing financial infrastructure in the
-nonprofit sector, we believe it is feasible to operate low-cost, high-fidelity
-experiments that can scale up to the city, state, and eventually national stage.
-In summary, the potential immediate impact of UBP research is considerable. We
-intend for this paper to provide a high-level but comprehensive starting point
-for further discourse.
+Given the ambitious nature of our scheme, we have two critical reasons to begin
+promoting this work now. First, there is something to be said about the value of
+pie-in-the-sky ideas for generating awareness about more practical and
+incremental approaches. Perhaps the most useful result of this work will be to
+draw public attention to nuanced topics around tax policies, accountability
+practices, and which organizations should be eligible for tax-exempt status.
+Secondly, in contrast with other similarly grand proposals, UBP researchers have
+a distinctly clear path to obtain initial research results. By leveraging the
+existing financial infrastructure in the nonprofit sector, we believe it is
+feasible to operate low-cost, high-fidelity experiments that can scale up to the
+city, state, and eventually national stage. In summary, the potential immediate
+impact of UBP research is considerable. We intend for this paper to provide a
+high-level but comprehensive starting point for further discourse.
 
 * Background
 :PROPERTIES:
@@ -98,49 +98,27 @@ guess is that society still sees philanthropy primarily in terms of individual
 generosity and sacrifice. This view is not necessarily right or wrong. However,
 perhaps it is no longer sufficient in a time when the nonprofit sector has
 achieved a global impact on so many consequential areas like education, news,
-and research. A growing number of authors have written popular books drawing
-attention to this topic
+and research. Although our assessment focuses primarily on the singular
+dimension of wealth inequality, empirical evidence suggests that discrepancies
+in charitable giving, engagement, and public perception are significant among
+many other demographic indicators such as race, religiosity, and education
+[[cite:mcdougle2014understanding]]. A growing number of authors have written
+popular books drawing attention to this topic
 [[cite:mcgoey2015no]][[cite:callahan2017givers]][[cite:villanueva2018decolonizing]][[cite:giridharadas2018winners]][[cite:reich2018just]].
-The common message is this: philanthropy is power, and power demands scrutiny.
-
-* Related Work
-UBP is an subclass of participatory grant-making
-[[cite:gibson2017participatory]]. Whereas members in traditional participatory
-grant-making make collective decisions by voting, UBP prescribes a more scalable
-form of market-based individual decision-making. Outside of
-
-UBP is comparable to three other progressive ideas discussed in academic
-literature. First, it is a special form of Universal Basic Income (UBI), a
-concept with a rich history of study that has recently garnered renewed
-interest. UBI proposes that, in place of welfare, the state should provide a
-steady sum of money to all adult individuals to cover minimal living expenses
-[[cite:van2004basic]]. Researchers have analyzed experiments in UBI across
-several small-scale experiments in such settings as Alaska
-[[cite:goldsmith2002alaska]], Finland [[cite:koistinen2014good]], and Namibia
-[[cite:osterkamp2013basic]]. Secondly, UBP also shares a common ideology with
-Richard Hasen's "democracy coupons"
-[[cite:hasen1996clipping]][[cite:douglas2016local]]. Whereas democracy coupons
-promote egalitarianism in the plutocratic campaign spending process, UBP
-attempts to do the same for philanthropy. Finally, UBP's charitable unit of
-currency has similar properties with the concept of time banking, where members
-of small communities reciprocate labor as measured by time rather than market
-value [[cite:cahn1992time]]. UBP's currency may enable some of the same benefits
-by promoting community well-being [[cite:lasker2011time]] and an individual
-sense of purpose [[cite:ozanne2010learning]] --- but at a potentially much
-larger scale.
+The common message is that philanthropy is power, and power deserves scrutiny.
 
 * Universal Basic Philanthropy
 :PROPERTIES:
 :CUSTOM_ID: ubp
 :END:
 
-Our proposed model is /Universal Basic Philanthropy/. The scheme stipulates that
-at some level of governance, the state will fund and distribute a guaranteed
-charitable stipend to its constituents. Where UBP is the generic name of the
-distribution policy, we will refer to the unit of currency as a /philanthropy
-dollar/. Philanthropy dollars enjoy all of the flexibility of the US dollar
-(USD), with the exception that only registered nonprofits can extract its
-monetary value. Effectively, it creates a free-market infrastructure for
+Our proposed solution is /Universal Basic Philanthropy/. The scheme stipulates
+that at some level of governance, the state will fund and distribute a
+guaranteed charitable stipend to its constituents. Where UBP is the generic name
+of the distribution policy, we will refer to the unit of currency as a
+/philanthropy dollar/. Philanthropy dollars enjoy all of the flexibility of the
+US dollar (USD), with the exception that only registered nonprofits can extract
+its monetary value. Effectively, it creates a free-market infrastructure for
 individuals to make decisions about social profit without needing to consider
 the influence of traditional money. The dynamics of this system, enforced by a
 combination of legal and technical mechanisms, are illustrated in Figure
@@ -199,21 +177,29 @@ citizens of a democratic state. For some value systems, the desirability of
 equality and democracy are intrinsic. As shown in Section [[#background]],
 social profit affects every aspect of society at a significant scale. There is a
 multitude of philosophical, moral, and sociological reasons why we may want to
-maximize public ownership of these institutions.
+maximize public ownership of these institutions. Of paramount importance in this
+domain is the method for communication this frame to the public. In a pair of
+experiments combining lab and field results, Eckel and Grossman illustrate that
+donor behavior can vary dramatically depending on the communicated frame, in
+this case, by explaining a charitable subsidy as either a "match" or a "rebate"
+[[cite:eckel2003rebate]][[cite:eckel2008subsidizing]]. We conjecture that among
+the many options for subsidizing public ownership of the social profit sector,
+none are quite as powerful as distributing mass amounts of money into individual
+bank accounts.
 
-However, individual empowerment may have more immediately obvious benefits as
-well. If UBP provides the public with a greater sense of empowerment in social
-profit, perhaps it will lead to greater engagement and volunteerism. A study by
-Fidelity supports the natural intuition that individuals who donated were also
-far more likely to volunteer. Although this data only shows a correlative link,
-one of the key contributions of our initial UBP study will be to measure the
-magnitude of the causal relationship. Any evidence that UBP could increase the
-national output of volunteerism, estimated to be worth $167 billion in 2018,
+Individual empowerment may have more immediately obvious benefits as well. If
+UBP provides the public with a greater sense of empowerment in social profit,
+perhaps it will lead to greater engagement and volunteerism. An informal study
+by Fidelity supports the natural intuition that individuals who donated were
+also far more likely to volunteer. Although this data only shows a correlative
+link, one of the key contributions of our initial UBP study will be to measure
+the magnitude of the causal relationship. Any evidence that UBP could increase
+the national output of volunteerism, estimated to be worth $167 billion in 2018,
 would be a strong justification for public financing of the program
 [[cite:corporation2018volunteering]]. The final argument for UBP on the subject
 of individual empowerment relates to well-being and happiness. Separately,
-research has shown that happiness positively correlates with greater equality,
-giving, and volunteerism
+research has shown that health outcomes positively correlates with greater
+equality, giving, and volunteerism
 [[cite:alesina2011preferences]][[cite:dunn2008spending]][[cite:binder2013volunteering]].
 UBP aims to reinforce all three.
 
@@ -266,6 +252,9 @@ or the head is up to them. UBP supports both and allows them to sleep on it
 first.
 
 ** Local Knowledge
+:PROPERTIES:
+:CUSTOM_ID: local_knowledge
+:END:
 On the other end of the spectrum, the institutional grant-making process
 performed by foundations, corporations, and governments may be analytical to a
 fault. The first reason is that the need for measurement incurs a nontrivial
@@ -506,6 +495,63 @@ of UBP. However, we note that UBP is a convenient excuse to more generally study
 philanthropy. Such a setup could help answer other questions about the
 psychology of giving on a unique platform that is more natural than laboratory
 testing but more observable than tax return analysis.
+
+* Related Work
+To our knowledge, UBP is the first scheme to formally propose an egalitarian but
+market-based distribution mechanism in the nonprofit setting as well as the
+first to explore the implications of philanthropic power as a scalable and
+transactable currency. However, many of the core motivations draw inspiration
+from existing concepts. UBP is a subclass of /participatory grant-making/, which
+describes a broad diversity of mechanisms and organizational philosophies
+revolving around the mindset that philanthropy should be accountable to all
+stakeholders[[cite:gibson2017participatory]]. Its counterpart in governance is
+/participatory budgeting/, a form of citizen-oriented allocation of municipal
+budgets popularized in Brazil [[cite:cabannes2004participatory]]. Our proposal
+differentiates itself from both existing schemes through the allocation
+mechanism. Whereas the latter implements decision-making by collective voting,
+UBP prescribes an individualistic market-based process. In addition to more
+accurately reflecting minority views, our scheme also enjoys greater scalability
+since markets can support numerous "buyers" and "sellers" without the need for
+increasingly convoluted forms of representation.
+
+In this sense, UBP closely resembles /percentage philanthropy/, a policy which
+enables taxpayers to allocate some portion their taxes to a chosen nonprofit
+organization instead of the state [[cite:johnson2004promoting]]. The "one
+percent law" in Hungary is one such example [[cite:fazekas2000one]]. Where UBP
+differs is in the motivation for our proposal. Notionally, percentage
+philanthropy implicitly assumes that significant parts of the public might
+prefer to give their money to charities than to the government. Although this
+assumption is seemingly valid given the success of the program, work by Li et
+al. suggests that providing citizens with a choice between which causes to fund
+with their tax dollars is far more critical than whether the money goes to a
+nonprofit or government program [[cite:li2011giving]]. UBP uses a similar
+mechanism to tackle a much different issue: the state of inequality in social
+influence. By prescribing a flat distribution of philanthropy dollars instead of
+a percentage of income, our policy aims to replicate the democratizing effect of
+a per-person vote rather than a mere tax break. Moreover, our formulation of
+philanthropy dollars as a transactable unit of currency uniquely enables the
+ability for information to aggregate as described in Section
+[[#local_knowledge]] and facilitate economic activity as described in Section
+[[#altruism]].
+
+In more mainstream discourse, UBP is comparable to three other progressive ideas.
+First, it is a special form of Universal Basic Income (UBI), a concept with a
+rich history of study that has recently garnered renewed interest. UBI proposes
+that, in place of welfare, the state should provide a steady sum of money to all
+adult individuals to cover minimal living expenses [[cite:van2004basic]].
+Researchers have analyzed experiments in UBI across several small-scale
+experiments in such settings as Alaska [[cite:goldsmith2002alaska]], Finland
+[[cite:koistinen2014good]], and Namibia [[cite:osterkamp2013basic]]. Secondly,
+UBP also shares a common ideology with Richard Hasen's "democracy coupons"
+[[cite:hasen1996clipping]][[cite:douglas2016local]]. Whereas democracy coupons
+promote egalitarianism in the plutocratic campaign spending process, UBP
+attempts to do the same for philanthropy. Finally, UBP's charitable unit of
+currency has similar properties with the concept of time banking, where members
+of small communities reciprocate labor as measured by time rather than market
+value [[cite:cahn1992time]]. UBP's currency may enable some of the same benefits
+by promoting community well-being [[cite:lasker2011time]] and an individual
+sense of purpose [[cite:ozanne2010learning]] --- but at a potentially much
+larger scale.
 
 * Conclusion
 In this document, we present an initial conceptual framework for discourse on
