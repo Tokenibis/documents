@@ -1,6 +1,6 @@
 #+TITLE: Universal Basic Philanthropy: A Scalable Model to Democratize Social Impact
 #+AUTHOR: Token Ibis
-#+DATE: November 09, 2019
+#+DATE: December 15, 2019
 #+OPTIONS: toc:nil title:nil
 #+LATEX_CLASS: custom
 

@@ -43,7 +43,7 @@
 \def\author#1{%
   \def\@shortauthors{\scshape#1}
   \g@addto@macro\@authors{%
-    \@andorcomma,{\ignorespaces A Project By #1\unskip\affil@mark}}%
+    \@andorcomma,{\ignorespaces A Scalable Model to Democratize Social Impact}}%
   \def\CJ@noaffil{\CJ@warn{No affiliation specified for #1}}}
 \def\CJ@noaffil{%
  \CJ@err{No author specified}%
