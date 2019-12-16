@@ -304,17 +304,24 @@ Economy/. Informally, a simplistic view of free-market economics predicts that
 every time money should change hands, it does. In reality, people frequently
 face social or ethical considerations that add friction to the otherwise free
 flow of money. Examples include trading favors between friends and betting on
-political elections. For most of these cases, we suggest that the relevant
+political elections. For most of these cases, we suggest that the primary
 psychological block is the perception of greed and selfishness on the part of
-the potential beneficiaries. By construction, philanthropy dollars have the
-potential to become the first form of widely-accepted currency that is incapable
-of enabling greed or selfishness, at least in the narrow financial sense. If so,
-it could then serve as a unique medium of exchange for the socially and
-ethically-charged transactions mentioned before. We can extrapolate this
-intuition to consider brand new classes of altruistically-enabled interactions.
-The proceeding subsections describe a non-exhaustive list of possibilities.
-Although we do not expect most of them to hold up perfectly in a real-world
-setting, we present them all as useful thought experiments.
+the potential beneficiaries. Philanthropy dollars offers a scalable alternative
+for facilitating these transactions that is notionally free from greed or
+selfishness, at least in the narrow financial sense. Also relevant, but perhaps
+more indirectly so, is the "crowding-out effect", which is well-established in
+existing literature [[cite:benabou2006incentives]][[cite:gneezy2011and]]. This
+term describes a phenomenon whereby introducing extrinsic financial incentives
+often counter-productively "crowds-out" an individual's intrinsic psychological
+motivation for participating in the first place. However, most prior studies
+have examined this effect with respect to normal monetary incentives. An
+interesting area of future research is to study whether philanthropy dollars can
+add incentivization without harming intrinsic dispositions. Whatever the
+mechanism, we suggest that philanthropy dollars, by its prosocial construction,
+could serve to facilitate a brand new class of altruistically-minded economic
+interactions. The proceeding subsections enumerate a non-exhaustive list of
+possibilities. Although we do not expect most of them to hold up perfectly in a
+real-world setting, we present them all as useful thought experiments.
 
 ** New Individual Exchange
 This category describes exchanges between two private individuals. In addition
