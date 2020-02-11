@@ -1,5 +1,5 @@
 #+TITLE: Universal Basic Philanthropy: A Scalable Model to Democratize Social Impact
-#+AUTHOR: Token Ibis
+#+AUTHOR: Thien-Nam Dinh
 #+DATE: December 15, 2019
 #+OPTIONS: toc:nil title:nil
 #+LATEX_CLASS: custom
@@ -11,7 +11,6 @@ Our solution is the novel conceptualization of Universal Basic Philanthropy: an 
 In this paper, we present a simple mechanism to implement our belief in public policy, speculate on the potential implications at a national scale, and propose a strategy for actionable research moving forward.
 #+END_abstract
 
-#+LATEX: \title{\vspace{2cm}Universal Basic Philanthropy}
 #+LATEX: \maketitle
 
 * Introduction

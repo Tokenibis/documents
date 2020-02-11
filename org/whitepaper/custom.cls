@@ -41,9 +41,9 @@
 \newcounter{affil}
 \newcounter{remaffil}
 \def\author#1{%
-  \def\@shortauthors{\scshape#1}
+  \def\@shortauthors{\scshape Token Ibis}
   \g@addto@macro\@authors{%
-    \@andorcomma,{\ignorespaces A Scalable Model to Democratize Social Impact}}%
+    \@andorcomma,{\ignorespaces #1\unskip\affil@mark}}%
   \def\CJ@noaffil{\CJ@warn{No affiliation specified for #1}}}
 \def\CJ@noaffil{%
  \CJ@err{No author specified}%
@@ -131,7 +131,7 @@
     \normalfont\centering
      \vspace{-\headheight}\vspace{-\voffset}\vspace{-12\p@}%
     {\parbox[b]{.75\textwidth}{\centering
-      {\Huge\@title\par}%
+      {\LARGE\@title\par}%
       \addvspace{17pt}% 
       \ifnum\c@affil>\@ne
         \def\affil@mark{\textsuperscript{\theaffil}}%
