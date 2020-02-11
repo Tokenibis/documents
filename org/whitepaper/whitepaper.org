@@ -66,7 +66,7 @@ Our best guess is that society still sees philanthropy primarily in terms of ind
 This view is not necessarily right or wrong.
 However, perhaps it is no longer sufficient in a time when the nonprofit sector has achieved a global impact on so many consequential areas like education, news, and research.
 Although our assessment focuses primarily on the singular dimension of wealth inequality, empirical evidence suggests that discrepancies in charitable giving, engagement, and public perception are significant among many other demographic indicators such as race, religiosity, and education [[cite:mcdougle2014understanding]].
-A growing number of authors have written popular books drawing attention to this topic [[cite:mcgoey2015no]][[cite:callahan2017givers]][[cite:villanueva2018decolonizing]][[cite:giridharadas2018winners]][[cite:reich2018just]].
+A growing number of authors have written popular books drawing attention to this topic [[cite:mcgoey2015no,callahan2017givers,villanueva2018decolonizing,giridharadas2018winners,reich2018just]].
 The common message is that philanthropy is power, and power deserves scrutiny.
 
 * Universal Basic Philanthropy
@@ -118,7 +118,7 @@ For some value systems, the desirability of equality and democracy are intrinsic
 As shown in Section [[#background]], social profit affects every aspect of society at a significant scale.
 There is a multitude of philosophical, moral, and sociological reasons why we may want to maximize public ownership of these institutions.
 Of paramount importance in this domain is the method for communication this frame to the public.
-In a pair of experiments combining lab and field results, Eckel and Grossman illustrate that donor behavior can vary dramatically depending on the communicated frame, in this case, by explaining a charitable subsidy as either a "match" or a "rebate" [[cite:eckel2003rebate]][[cite:eckel2008subsidizing]].
+In a pair of experiments combining lab and field results, Eckel and Grossman illustrate that donor behavior can vary dramatically depending on the communicated frame, in this case, by explaining a charitable subsidy as either a "match" or a "rebate" [[cite:eckel2003rebate,eckel2008subsidizing]].
 We conjecture that among the many options for subsidizing public ownership of the social profit sector, none are quite as powerful as distributing mass amounts of money into individual bank accounts.
 
 Individual empowerment may have more immediately obvious benefits as well.
@@ -127,7 +127,7 @@ An informal study by Fidelity supports the natural intuition that individuals wh
 Although this data only shows a correlative link, one of the key contributions of our initial UBP study will be to measure the magnitude of the causal relationship.
 Any evidence that UBP could increase the national output of volunteerism, estimated to be worth $167 billion in 2018, would be a strong justification for public financing of the program [[cite:corporation2018volunteering]].
 The final argument for UBP on the subject of individual empowerment relates to well-being and happiness.
-Separately, research has shown that health outcomes positively correlates with greater equality, giving, and volunteerism [[cite:alesina2011preferences]][[cite:dunn2008spending]][[cite:binder2013volunteering]].
+Separately, research has shown that health outcomes positively correlates with greater equality, giving, and volunteerism [[cite:alesina2011preferences,dunn2008spending,binder2013volunteering]].
 UBP aims to reinforce all three.
 
 * Informed Giving
@@ -197,7 +197,7 @@ In reality, people frequently face social or ethical considerations that add fri
 Examples include trading favors between friends and betting on political elections.
 For most of these cases, we suggest that the primary psychological block is the perception of greed and selfishness on the part of the potential beneficiaries.
 Philanthropy dollars offers a scalable alternative for facilitating these transactions that is notionally free from greed or selfishness, at least in the narrow financial sense.
-Also relevant, but perhaps more indirectly so, is the "crowding-out effect", which is well-established in existing literature [[cite:benabou2006incentives]][[cite:gneezy2011and]].
+Also relevant, but perhaps more indirectly so, is the "crowding-out effect", which is well-established in existing literature [[cite:benabou2006incentives,gneezy2011and]].
 This term describes a phenomenon whereby introducing extrinsic financial incentives often counter-productively "crowds-out" an individual's intrinsic psychological motivation for participating in the first place.
 However, most prior studies have examined this effect with respect to normal monetary incentives.
 An interesting area of future research is to study whether philanthropy dollars can add incentivization without harming intrinsic dispositions.
@@ -260,7 +260,7 @@ In the hypothetical resolution of the previous example, either more children wou
 * Challenges and Best Practices
 In this section, we will present considerations for critical challenges and best practices in maintaining the integrity of the system.
 We make an underlying assumption that UBP will operate exclusively on a digital payment platform sanctioned by the federal government.
-We feel this is a reasonable assumption for the future given the growing interest in novel payment technologies [[cite:nakamoto2008bitcoin]][[cite:bech2017central]].
+We feel this is a reasonable assumption for the future given the growing interest in novel payment technologies [[cite:nakamoto2008bitcoin,bech2017central]].
 Although we will propose hard legal and technological solutions to handle some of these challenges, the hope is that emerging cultural norms will do the heavy lifting.
 
 ** Gate-Keeping
@@ -347,7 +347,7 @@ In more mainstream discourse, UBP is comparable to three other progressive ideas
 First, it is a special form of Universal Basic Income (UBI), a concept with a rich history of study that has recently garnered renewed interest.
 UBI proposes that, in place of welfare, the state should provide a steady sum of money to all adult individuals to cover minimal living expenses [[cite:van2004basic]].
 Researchers have analyzed experiments in UBI across several small-scale experiments in such settings as Alaska [[cite:goldsmith2002alaska]], Finland [[cite:koistinen2014good]], and Namibia [[cite:osterkamp2013basic]].
-Secondly, UBP also shares a common ideology with Richard Hasen's "democracy coupons" [[cite:hasen1996clipping]][[cite:douglas2016local]].
+Secondly, UBP also shares a common ideology with Richard Hasen's "democracy coupons" [[cite:hasen1996clipping,douglas2016local]].
 Whereas democracy coupons promote egalitarianism in the plutocratic campaign spending process, UBP attempts to do the same for philanthropy.
 Finally, UBP's charitable unit of currency has similar properties with the concept of time banking, where members of small communities reciprocate labor as measured by time rather than market value [[cite:cahn1992time]].
 UBP's currency may enable some of the same benefits by promoting community well-being [[cite:lasker2011time]] and an individual sense of purpose [[cite:ozanne2010learning]] --- but at a potentially much larger scale.
