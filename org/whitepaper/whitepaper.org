@@ -7,7 +7,7 @@
 #+LATEX_HEADER: \email{tdinh@tokenibis.org}
 
 #+BEGIN_abstract 
-Society traditionally equivocates charitable giving exclusively with generosity and individual sacrifice.
+Society traditionally equivocates charitable giving with generosity and individual sacrifice.
 We argue that, although this is a classically valid view, the continued growth in size and impact of the modern social profit sector requires a radical rethinking of its financial foundations.
 Our solution is the novel conceptualization of Universal Basic Philanthropy: an economic assertion that social influence should be a civil right for all individuals.
 In this paper, we present a simple mechanism to implement our belief in public policy, speculate on the potential implications at a national scale, and propose a strategy for actionable research moving forward.
