@@ -1,8 +1,10 @@
 #+TITLE: Universal Basic Philanthropy: A Scalable Model to Democratize Social Impact
-#+AUTHOR: Thien-Nam Dinh
-#+DATE: December 15, 2019
-#+OPTIONS: toc:nil title:nil
+#+DATE: February 16, 2020
+#+OPTIONS: toc:nil title:nil author:nil
 #+LATEX_CLASS: custom
+#+LATEX_HEADER: \author{Thien-Nam Dinh}
+#+LATEX_HEADER: \affiliation{Token Ibis Inc.}
+#+LATEX_HEADER: \email{tdinh@tokenibis.org}
 
 #+BEGIN_abstract 
 Society traditionally equivocates charitable giving exclusively with generosity and individual sacrifice.
@@ -215,7 +217,7 @@ This term describes a phenomenon whereby introducing extrinsic financial incenti
 However, most prior studies have examined this effect with respect to normal monetary incentives.
 An interesting area of future research is to study whether philanthropy dollars can add incentivization without harming intrinsic dispositions.
 Indeed, experimental results indicate certain prosocial incentives could provide an even greater motivation than selfish incentives at sufficiently low stakes [[cite:imas2014working]].
-Whatever the mechanism, we suggest that philanthropy dollars, by its prosocial construction, would serve to facilitate a new class of altruistically-minded economic interactions.
+Whatever the mechanism, we suggest that the prosocial construction of philanthropy dollars would serve to facilitate a new class of altruistically-minded economic interactions.
 The proceeding subsections enumerate a non-exhaustive list of possibilities.
 Although we do not expect most of them to hold up perfectly in a real-world setting, we present them all as useful thought experiments.
 
@@ -332,7 +334,7 @@ Each party in our experiment has a counterpart to large-scale UBP:
 Students interact on a digital payment app that allows them to send and donate philanthropy dollars, label transactions with a description, read news and events, and establish social-networking connections by "following" and communicating with other users.
 By integrating these features with a data collection infrastructure, researchers can quantitatively measure the potential effect of UBP on prosocial behavior in a semi-controlled environment.
 A basic experiment separates students into two groups: one that receives UBP and a control group that does not.
-To ensure that the control group still has some incentive to use the app, the experiment facilitator should agree to match any freely-given donations up to the UBP amount.
+To ensure that the control group still has some incentive to use the app, the facilitator should agree to match any freely-given donations up to the UBP amount.
 The proceeding sections will enumerate some attainable research results in the context of our three hypothesized UBP benefits.
 
 ** Individual Empowerment
@@ -384,7 +386,7 @@ Its counterpart in governance is /participatory budgeting/, a form of citizen-or
 Although traditional participatory grant-making yields demonstrably distinct outcomes from centralized approaches, recent literature has shed light on certain participant biases that point to opportunities to improve the mechanism [[cite:mcginnis2016necessary]].
 Our proposal differentiates itself from existing schemes through the allocation mechanism.
 Whereas the latter implements decision-making by collective voting, UBP prescribes an individualistic market-based process.
-In addition to more precisely reflecting minority preferences, our scheme also enjoys greater scalability since markets can support numerous "buyers" and "sellers" without the need for increasingly convoluted forms of representation.
+In addition to more precisely reflecting minority preferences, our scheme also enjoys greater scalability since markets can support numerous "buyers" and "sellers" without the need for convoluted hierarchies of representation.
 
 In this sense, UBP closely resembles /percentage philanthropy/, a policy which enables taxpayers to allocate some portion their taxes to a chosen nonprofit organization instead of the state [[cite:johnson2004promoting]].
 The "one percent law" in Hungary is one such example [[cite:fazekas2000one]].
@@ -405,7 +407,7 @@ Finally, UBP's charitable unit of currency has similar properties with the conce
 UBP's currency may enable some of the same benefits by promoting community well-being [[cite:lasker2011time]] and an individual sense of purpose [[cite:ozanne2010learning]] --- but at a potentially much larger scale.
 
 * Conclusion
-In this document, we present an initial conceptual framework for discourse on Universal Basic Philanthropy, a market-based policy to democratize social impact at the national scale.
+In this document, we present a conceptual framework for discourse on Universal Basic Philanthropy, a market-based policy to democratize social impact at the national scale.
 We argue that the modern state of social profit warrants reconsideration of its underlying financial mechanisms.
 UBP offers theoretical improvements to the existing system through individual empowerment, informed giving, and the creation of a novel class of altruistic economics.
 Finally, UBP is a readily-testable model that we propose to implement on a local scale to empower students.

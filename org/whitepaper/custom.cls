@@ -41,7 +41,7 @@
 \newcounter{affil}
 \newcounter{remaffil}
 \def\author#1{%
-  \def\@shortauthors{\scshape Token Ibis}
+  \def\@shortauthors{\scshape Token Ibis Inc.}
   \g@addto@macro\@authors{%
     \@andorcomma,{\ignorespaces #1\unskip\affil@mark}}%
   \def\CJ@noaffil{\CJ@warn{No affiliation specified for #1}}}
@@ -98,6 +98,9 @@
 %  \g@addto@macro\@address{\endgraf\noindent(e-mail: #1)}%
 %  \def\email##1{%
 %    \CJ@err{You may only specify one correspondence email}}}
+\def\email#1{%
+\def\@email{#1}%
+}
 %
 \let\affil@mark\@empty
 \def\keywords#1{%
@@ -131,7 +134,7 @@
     \normalfont\centering
      \vspace{-\headheight}\vspace{-\voffset}\vspace{-12\p@}%
     {\parbox[b]{.75\textwidth}{\centering
-      {\LARGE\@title\par}%
+      {\Large\@title\par}%
       \addvspace{17pt}% 
       \ifnum\c@affil>\@ne
         \def\affil@mark{\textsuperscript{\theaffil}}%
@@ -148,9 +151,10 @@
      \else \typeout{caffil not> 1}
       \setcounter{footnote}{0}\fi
       \def\@makefnmark{\@textsuperscript{\normalfont\@thefnmark}}%
-      {\large\scshape\@authors\@andorcomma\relax\@andorcomma\relax\par}%
-       \addvspace{15pt}% 75mm - 15.5pc - 12pt baseline from affils
+      {\scshape\@authors\@andorcomma\relax\@andorcomma\relax\par}%
+       \addvspace{5pt}% 75mm - 15.5pc - 12pt baseline from affils
       {\small\itshape\@affils}\par              %%SDH affils made italic--should really be addresses
+      {\small\itshape\@email}\par               %%SDH Emails moved to correct place
       \addvspace\bigskipamount
       \usebox\absbox\par
      \addvspace\bigskipamount
@@ -173,6 +177,7 @@
   \let\keywords\relax
   \let\@keywords\relax
   \let\address\relax
+  \let\email\relax
   \let\@address\relax
   \let\maketitle\relax
   \let\thanks\@gobble}
