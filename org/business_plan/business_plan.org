@@ -48,7 +48,7 @@ Due to the strong belief that we have in the potential of this project, our boar
 The core business model works like this:
 
 1. Raise money from the existing philanthropists.
-2. Distribute money to local high school and college students.
+2. Distribute money to local college and high school students.
 3. Allow students to donate money to local nonprofits of their choosing.
 
 [[./figures/flow.png]]
@@ -209,10 +209,8 @@ By creating a naturally scalable but controlled propriety platform, our model pr
 As we accumulate users, Token Ibis will work closely with researchers, especially those based out of the University of New Mexico, to explore the academic foundations of UBP. 
 
 * Partnering Organizations
-This section lists external organizations who we work with or intend
-to work with in the near future.
-Given the scope of the mission, our resources are relatively limited.
-As a result, success will require rich and meaningful collaborations at three main levels.
+This section lists external organizations with whom we currently have formal
+or informal connections to help us accomplish our mission.
 /Supporting nonprofits/ provide the social impact that motivates our entire model in the first place.
 /Educational institutions/ provide an ideal setting and target demographic to operate the project.
 Finally, the many excellent /potential collaborators/ already working in the grant-making and capacity building space will be key partners for taking our mission to the next level.
@@ -267,38 +265,34 @@ Beyond these minimum requirements, we also strive to create a well-balanced and 
   We plan to put together an advisory board of community members to make these decisions going forward.
 
 ** Educational Institutions
-Working closely with schools to facilitate the project will be crucial to our success.
-The only hard requirement we ask for from schools is to allow Token Ibis to run one informational session at the beginning of the year to sign up students.
-However, it certainly helps to work with administrations who are willing to let us and other nonprofit partners interface with the students on an ongoing basis.
-To this end, we are fortunate to have an initial relationship with Siembra Leadership High School as the site for the pilot project.
+In order to limit the population to manageable scope, Ibis will our launch the pilot program at UNM.
+Moving forward, expansion to CNM and other colleges will depend primarily on funding.
+Expansion to high school programs will depend on the level of interest and collaboration with administrators.
 
 #+BEGIN_EXPORT latex
-\avatar{figures/avatars/siembra}{Siembra Leadership High School}{An entrepreneurship-focused charter school for opportunity high school students. Siembra has a strong program for connecting students with outside community members in engaging team projects.}
+\avatar{figures/avatars/unm}{University of New Mexico}{UNM is the premier research university in the state. We have assessed the school's IT infrastructure to verify that we can use UNM email addresses as reliable form of identification for students. The Token Ibis team includes two UNM graduate students, and we expect that proximity to the institution will facilitate further collaboration with interested researchers.}
 #+END_EXPORT
 
-Token Ibis is excited about the prospect of working with students who are particularly familiar with both the social issues and potential solutions that characterize our city.
-
-Moving forward, we will also be looking to develop our existing relationships with UNM and CNM.
-
-** Prospective Collaborators
-In a typical for-profit business plan, this subsection would be called "competitors".
+** Collaborators
+In a typical for-profit business plan, this subsection might be called "competitors".
 Instead, as a social profit organization, we hope to initiate collaboration when and wherever possible.
 The following are organizations are working toward similar goals to increase participation in philanthropy.
 
 #+BEGIN_EXPORT latex
 \avatar{figures/avatars/abqinvolved}{Albuquerque Involved}{Like Token Ibis, Albuquerque Involved is a volunteer-run, board-funded initiative which aims to motivate individuals and families to give back.
-Their model encourages members to learn about new nonprofits and vote on grant allocations every month.
-We hope to emulate Albuquerque Involved's presence in the community and to support their Teen Ambassador program where possible.}
-
-\avatar{figures/avatars/unitedway}{United Way of Central New Mexico}{The UWCNM is a key player in the Albuquerque social profit sector due to both its grant-making capacity and extensive support network through initiatives such as the Center for Nonprofit Excellence, which we have used extensively.
-At Token Ibis, we are particularly interested building a collaboration with their community grant panel program.}
-
-\avatar{figures/avatars/abqcommunity}{Albuquerque Community Foundation}{The Albuquerque Community Foundation is another key player in the local funding landscape.
-Among numerous invaluable networking opportunities, we are interested in building our existing presence with the Future Fund, a program that targets philanthropic participation young professionals who are only slightly older than our own target demographic.}
-
-\avatar{figures/avatars/abqacademy}{Community Builders}{The Albuquerque Academy Community Builders is a summer program that allows participating students to learn about social profit and allocate real money through a mock foundation.
-Token Ibis aims to replicate some of the tremendous impact already demonstrated by the Community Builders program, only at a larger and more accessible scale. \textbf{\emph{No contact initiated yet.}}}
+We have been steadily building our relationship with ABQ Involved and have discussed collaborative projects in the very near future to advance our shared mission of democratizing philanthropy.}
 #+END_EXPORT
+
+# #+BEGIN_EXPORT latex
+# \avatar{figures/avatars/unitedway}{United Way of Central New Mexico}{The UWCNM is a key player in the Albuquerque social profit sector due to both its grant-making capacity and extensive support network through initiatives such as the Center for Nonprofit Excellence, which we have used extensively.
+# At Token Ibis, we are particularly interested building a collaboration with their community grant panel program.}
+
+# \avatar{figures/avatars/abqcommunity}{Albuquerque Community Foundation}{The Albuquerque Community Foundation is another key player in the local funding landscape.
+# Among numerous invaluable networking opportunities, we are interested in building our existing presence with the Future Fund, a program that targets philanthropic participation young professionals who are only slightly older than our own target demographic.}
+
+# \avatar{figures/avatars/abqacademy}{Community Builders}{The Albuquerque Academy Community Builders is a summer program that allows participating students to learn about social profit and allocate real money through a mock foundation.
+# Token Ibis aims to replicate some of the tremendous impact already demonstrated by the Community Builders program, only at a larger and more accessible scale. \textbf{\emph{No contact initiated yet.}}}
+# #+END_EXPORT
 
 * Roadmap
 This section outlines our vision for how progress will unfold.
@@ -307,46 +301,46 @@ However, we hope that the work we do now will soon contribute to a much larger m
 For that to happen, it's not enough for Token Ibis to grow larger as an organization.
 Instead, our job is to establish and disseminate a water-tight model that other communities can someday use to spark social profit across the world.
 
-** Year One: Pilot Project
+** Stage One: User Dynamics
 In the first stage (Table [[tab:one]]), we will launch the first-ever pilot project for UBP in a small-scale but high-impact setting.
-Our ideal target is a smaller high school, likely a charter or magnet school, where we can serve the entire student population for a feasible amount of money.
-The goal is to focus our efforts on creating a positive and educational experience for these students.
+Although any UNM student is welcome to join, we expect that the population will self-select toward social-profit-inclined users (e.g. members of service-oriented student organizations).
+This will allow us to observe the dynamics of UBP and philanthropy dollars with an ideal, dynamic, and non-exclusive population.
 In the process, we hope to earn credibility and obtain anecdotal evidence for the importance of this work.
 
 #+name: tab:one
 #+CAPTION: *Year One Scope.*
-|--------------+---------------------|
-| *Budget*     | \approx $50,000     |
-| *Population* | \approx 150         |
-| *Setting*    | Small High School   |
-| *Goal*       | Anecdotal Impact    |
-|--------------+---------------------|
+|--------------+------------------|
+| *Budget*     | \approx $50,000  |
+| *Population* | \approx 150      |
+| *Setting*    | UNM              |
+| *Goal*       | Anecdotal Impact |
+|--------------+------------------|
 
 *** Transition
 As the project unfolds, we will leverage our success to secure key donors and collaborators for the next stage.
-For instance, a fully-fledged partnership with a foundation-like organization would lead to a drastically larger pool of funding and nonprofit partners.
-In addition, we will gear up for the next phase by developing relationships with teachers,  administrators, and researchers at collegiate institutions.
+In the meantime, this environment will provide the first opportunity to formalize the dynamics of UBP and understand its potential benefits.
+We intend to publish these (primarily qualitative) results in an academic journal.
 
-** Year Two: Research Platform
-Armed with increased funding and collaborators, we will launch the next ongoing project at the collegiate level (Table [[tab:two]]).
-Local colleges provide a larger-scale setting to move more money.
-Whereas we are somewhat limited in our ability to analyze usage data from high school students, adult undergraduates are a staple demographic for research in social science.
-Thanks to our custom-built payment platform, the collegiate experiment will yield rigorous, quantitative insights into the dynamics of UBP that we can submit for peer-reviewed publication.
+** Stage Two: System Dynamics
+Armed with increased funding and collaborators, we will scale up the project to any interested education institution (Table [[tab:two]]).
+Moreover, the scale of money flowing through this state should shed some light into the dynamics involving funders and nonprofits.
+Our hope is that by aligning outreach with fundraising, organizations can more naturally engage a young and energetic community.
+Whereas Stage One will demonstrate the UBP dynamics of individual users, Stage Two will enable us to understand how UBP can align economic incentives at a systematic level.
 
 #+name: tab:two
 #+CAPTION: *Year Two Scope.*
-|--------------+-------------------|
-| *Budget*     | >= $100,000       |
-| *Population* | >= 300            |
-| *Setting*    | UNM/CNM           |
-| *Goal*       | Rigorous Analysis |
-|--------------+-------------------|
+|--------------+----------------------|
+| *Budget*     | >= $200,000          |
+| *Population* | >= 600               |
+| *Setting*    | UNM/CNM/High Schools |
+| *Goal*       | Rigorous Analysis    |
+|--------------+----------------------|
 
 *** Transition
 At this point, we should have an extremely clear idea about the strengths and weaknesses of the system.
 In preparing for the next phase, Token Ibis will consolidate the business model and software into a "plug-and-play" package that any organization can deploy in their own communities.
 
-** Year Three+: Collective Movement
+** Stage Three+: Collective Movement
 In the third phase (Table [[tab:three]]), Token Ibis will become a provider and consultant for "UBP-in-a-box".
 Our mission is to enable communities around the world to set up their own local UBP projects.
 Interested clients might include schools, municipalities, corporations, churches, or any other organization that has access to three resources:
@@ -379,11 +373,11 @@ If all goes well, UBP has now transitioned from a local pilot project into a mas
 Perhaps Token Ibis will be an active and well-respected voice in the national philanthropic scene.
 Or, perhaps others will take over the mantle to push the idea of democratized philanthropy to far greater heights than we could have done ourselves.
 Either way, we have succeeded.
+
 * Revenue & Expenses
 This section describes our fundraising requirements and costs.
 The overview is simple: Token Ibis has next to overhead, so we are free to re-purpose all incoming donor money into philanthropy dollars for our students.
 
-** Operations
 Table [[tab:operating]] shows Token Ibis's core operating costs.
 Although we itemize these expenses for the sake of transparency, the intent is to show that our overall annual budget is essentially negligible.
 
@@ -406,23 +400,6 @@ Although we itemize these expenses for the sake of transparency, the intent is t
 The one variable costs that we do not include in Table [[tab:operating]] is marketing.
 Depending on the mission need, we might want to devote a large amount of effort and money to spreading awareness.
 Any costly campaigns at of this type will occur at the discretion of the board members who are funding it.
-
-** Philanthropy
-Compared to our trivial operational costs, Token Ibis can comfortably handle on the order of hundreds of thousands of dollars of philanthropic spending.
-We plan to fix the average payout for each student at $285/year ($1 for every day of the academic calendar).
-As a result, more fundraising would mean that we can serve more students.
-Table [[tab:philanthropy]] estimates budgets for some select schools.
-
-#+name: tab:philanthropy
-#+CAPTION: *Hypothetical Annual Philanthropy Throughput by School.* Siembra Leadership is the tentative location of our pilot project. Administrators at Siembra have verbally estimated about 175 students for the 2020 academic year. Atrisco Heritage is the largest high school in Albuquerque according to https:aps.edu.
-|-----------------------+--------------|
-| *School*              | *Cost ($)*   |
-|-----------------------+--------------|
-| Siembra Leadership HS |        50000 |
-| Atrisco Heritage HS   |       760000 |
-| UNM                   |      4200000 |
-| CNM                   |      7000000 |
-|-----------------------+--------------|
 
 * Impact Space
 This section covers a broad overview of the "markets" that we care about.\footnote{Although Token Ibis intends to operate primarily in Albuquerque, due to the nature of the available data, most of the discussion in this section is about New Mexico as a whole.}
@@ -562,7 +539,7 @@ If not, we’ll just have to commiserate with the hundreds of students that get 
 The volunteers of Token Ibis are happy to take that bet, and we hope you will too.
 
 * Funding Proposition
-Token Ibis is seeking to secure $50,000 of funding for our first pilot project, which we tentatively intend to launch by August 2020 at Siembra Leadership High School.
+Token Ibis is seeking to secure $50,000 of funding for our first pilot project, which we tentatively intend to launch by August 2020 at UNM.
 
 ** Donation Tiers
 We are deeply grateful for donors of all capacities and currently recognize seven different giving tiers listed in Table [[tab:tiers]].
