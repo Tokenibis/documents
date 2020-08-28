@@ -1,4 +1,4 @@
-#+TITLE: Business Plan \linebreak \linebreak \large Giving students the power to give back
+#+TITLE: Business Plan \linebreak \linebreak \large Building Bottom-up Philanthropy
 #+AUTHOR: Token Ibis Inc.
 #+OPTIONS: title:nil toc:nil
 
@@ -9,10 +9,6 @@
 #+LATEX_HEADER: \usepackage{wrapfig}
 #+LATEX_HEADER: \usepackage{tikz}
 #+LATEX_HEADER: \usepackage{subcaption}
-
-#+LATEX_HEADER: \usepackage{draftwatermark}
-#+LATEX_HEADER: \SetWatermarkText{\textbf{DRAFT}}
-#+LATEX_HEADER: \SetWatermarkScale{1}
 
 #+BEGIN_EXPORT latex
 \renewcommand{\abstractname}{\Large Executive Summary}
@@ -75,13 +71,12 @@ Ideally, we should have a product that is both practical to deploy and effortles
 
 ** User Process
 Students will be able to get on board and make an impact immediately without needing any prior knowledge about nonprofits or philanthropy.
+
 Over time, we expect the process itself to positively reinforce their behavior.
 
 1. *Receive*: Every week, Token Ibis provides money to active students.
-2. *Research*: Students explore nonprofit descriptions and news/events on the app to decide on their donation.
-3. *Donate*: Students allocate donations to nonprofits of their choosing.
-4. *Engage*: By giving them a financial voice, we encourage students
-   to go beyond and contribute even more with their time and talents.
+2. *Donate*: Students explore nonprofits and allocate donations to organizations of their choosing.
+3. *Engage*: By giving them a financial voice, we encourage students to earn more money, deposit their own, or engage with nonprofits in even more ways.
 
 ** Operator Process
 In addition creating a smooth experience for users, we also want to minimize the overhead effort in operating the project, both for ourselves and for future organizations.
@@ -127,16 +122,18 @@ The navigational structure looks like the following:
 \begin{minipage}{\textwidth}
 \dirtree{%
 .1 Home.
-.2 Give.
-.3 Nonprofits.
-.3 Donations.
-.2 Send.
-.3 People.
-.3 Transactions.
-.2 Engage.
+.2 Organizations.
+.3 Organizations.
 .3 News.
 .3 Events.
+.2 People.
+.3 People.
+.3 Donations.
 .3 Posts.
+.2 Bots.
+.3 Bots.
+.3 Rewards.
+.3 Activities.
 }
 \end{minipage}
 #+END_EXPORT
@@ -144,8 +141,8 @@ The navigational structure looks like the following:
 As users explore the app, they will find that they can perform the following actions:
 
 - *Donate*: Donate some amount of money to a listed nonprofit. We require users to type in some description for the donation, which could provide useful contextual insights.
-- *Transact*: Send philanthropy dollars to any other users. Like donations, users must enter in some description.
 - *Post*: Publicly post written content that other users can view next to the officially sanctioned news and events.
+- *Earn*: By interacting with bots in the activities tab, particularly interested users can find more ways to earn philanthropy dollars.
 - *Comment*: Publicly comment on any donation, transaction, news, event, post, or other comment.
 - *Follow*: Follow other users or nonprofits to receive activity notifications and convenient filtering options.
 - *RSVP*: Publicly announce intent to participate in an upcoming event and receive reminder notifications.
@@ -165,7 +162,7 @@ Table [[tab:stack]] lists the main components of the technology stack.
 |--------------------+--------------|
 | *Frontend*         | React JS     |
 | *Backend*          | Django       |
-| *Database*         | SQLite       |
+| *Database*         | PostgreSQL   |
 | *Query Language*   | GraphQL      |
 | *Web Server*       | Nginx        |
 | *Operating System* | Ubuntu 18.04 |
@@ -177,9 +174,10 @@ Finally, all Ibis code is free and open-source under the GPLv3 license and avail
 A challenging, but vital, aspect of modern software development is the ability to integrate with other, more popular platforms.
 To that end, our software suite integrates with, or plans to integrate with, the following services:
 
-- *Google*: Oauth login, maps
-- *Facebook*: Oauth login, events
-- *Mailchimp*: email notifications
+- *Google*: Oauth login, maps, email notifications
+- *Facebook*: Oauth login
+- *Microsoft*: UNM student login
+- *Paypal*: User deposits
 - *Miscellaneous*: quotes API, prices API
 
 ** Distribution Strategy
@@ -221,35 +219,40 @@ The following list shows the organizations that we are already working with.
 For each of the them, we maintain at least one contact who is familiar with our mission.
 
 #+BEGIN_EXPORT latex
-\avatar{figures/avatars/agora}{Agora Crisis Center}{A UNM-based, student-run crisis call center for all individuals seeking support.
-Also provides access to a highly engaged target volunteer population.}
+\avatar{figures/avatars/agora}{Agora Crisis Center}{A UNM-based, student-run crisis call center for all individuals seeking support.}
 
-\avatar{figures/avatars/cthf}{Carrie Tingley Hospital Foundation}{A support organization for patients and families of the Carrie Tingley Hospital.
-Provides presence in disabilities and children's services.}
+\avatar{figures/avatars/cthf}{Carrie Tingley Hospital Foundation}{A support organization for patients and families of the Carrie Tingley Hospital.}
 
-\avatar{figures/avatars/fvdo}{Friends of Valle De Oro}{A support organization for the Valle De Oro Wildlife Refuge.
-Provides presence in environmental conservation for an up-and-coming new project.}
+\avatar{figures/avatars/crossroads}{Crossroads for Women}{Provides services such as housing and peer support for women emerging from incarceration.}
 
-\avatar{figures/avatars/nmhim}{Holocaust \& Intolerance Museum of NM}{Combats hate through the perspective of the Holocaust and other atrocities.
-Provides a presence in educational outreach.}
+\avatar{figures/avatars/desertforge}{Desert Forge}{Veteran-formed organization providing meaningful support to veterans through agriculture and other means.}
 
-\avatar{figures/avatars/keshet}{Keshet Dance and Center for the Arts}{Serves vulnerable populations and offers support for the local arts community.
-Provides presence in arts and economic development.}
+\avatar{figures/avatars/encuentro}{Encuentro}{Supports Latino immigrant families through education, career development, training, and social justice.}
 
-\avatar{figures/avatars/dreamcenter}{New Mexico Dream Center}{Serves homeless youth, especially those who may have experienced sex trafficking.
-Also provides a presence in the faith-based giving community.}
+\avatar{figures/avatars/encuentro}{Fathers Building Future}{Supports fathers returning from incarceration through training and gainful employment.}
 
-\avatar{figures/avatars/rcccnm}{Rape Crisis Center of Central New Mexico}{A multi-faceted service for supporting victims of sexual assault and rape.
-Provides presence in victim services.}
+\avatar{figures/avatars/fifabq}{Food is Free Albuquerque}{Facilitates responsible, community-driven harvest and distribution of locally grown produce.}
 
-\avatar{figures/avatars/readwest}{ReadWest Adult Literacy}{A single-program organization which offers literacy tutoring for adults.
-Also provides presence into the Rio Rancho community.}
+\avatar{figures/avatars/fvdo}{Friends of Valle De Oro}{A support organization for the Valle De Oro Wildlife Refuge in southern Albuquerque.}
 
-\avatar{figures/avatars/saranam}{Saranam LLC}{A long-term program for families experiencing homelessness.
-Provides presence in homelessness with a uniquely comprehensive and outcome-oriented approach.}
+\avatar{figures/avatars/headinghome}{Heading Home}{Provides both emergency and permanent housing services for all individuals experiencing homelessness.}
 
-\avatar{figures/avatars/oneabq}{OneAlbuquerque Housing Fund}{A city-based program for providing immediate help to individuals experiencing homelessness.
-Provides an interface with municipal government.}
+\avatar{figures/avatars/nmhim}{Holocaust \& Intolerance Museum of NM}{Combats hate through the perspective of the Holocaust and other atrocities.}
+
+\avatar{figures/avatars/keshet}{Keshet Dance and Center for the Arts}{Serves vulnerable populations and offers support for the local arts community.}
+
+\avatar{figures/avatars/dreamcenter}{New Mexico Dream Center}{Serves homeless youth, especially those who may have experienced sex trafficking.}
+
+\avatar{figures/avatars/nmkidsmatter}{New Mexico Kids Matter}{Coordinates a volunteer advocay service in support of abused and neglected children.}
+
+\avatar{figures/avatars/oneabq}{OneAlbuquerque Housing Fund}{A city-based program for providing immediate help to individuals experiencing homelessness.}
+
+\avatar{figures/avatars/readwest}{ReadWest Adult Literacy}{A single-program organization which offers literacy tutoring for adults.}
+
+\avatar{figures/avatars/saranam}{Saranam LLC}{A 2-year program for families experiencing homelessness focused on long-term transition.}
+
+\avatar{figures/avatars/storehouse}{Storehouse}{Operates the state's largest food pantry, which offering free
+food in downtown Albuquerque.}
 #+END_EXPORT
 
 We plan to grow this list as we secure more funding and partnerships with educational institutions.
@@ -259,10 +262,9 @@ Eligible organizations must:
 - Be headquartered in the greater ABQ area
 - Have been vetted by a trusted 3rd-party organizations such as the United Way, the ABQ Foundation, the city of ABQ, or the UNM Foundation.
 - Refrain from engaging in significant political advocacy
-- Satisfy UWCNM's Social Action and Non-discrimination Policies for non-controversial and non-discriminatory behavior.
 
 Beyond these minimum requirements, we also strive to create a well-balanced and engaging portfolio of nonprofits for our students.
-  We plan to put together an advisory board of community members to make these decisions going forward.
+Moving forward, the bulk of our nonprofit additions will likely be user-driven.
 
 ** Educational Institutions
 In order to limit the population to manageable scope, Ibis will our launch the pilot program at UNM.
@@ -500,21 +502,26 @@ Moving forward, our Board of directors will provide the primarily labor with oth
 
 We are always looking for more volunteers and experienced community members who are willing to provide an advisory role.
 
+** Advisors
+#+BEGIN_EXPORT latex
+\avatar{./figures/avatars/bcolon}{Brian Colón}{Brian is an elected official, trained lawyer, and life-long advocate of local social profit.
+He currently serves as the State Auditor of New Mexico, providing guidance and connections for our mission.}
+
+\avatar{./figures/avatars/dfallad}{Dayra Fallad}{Dayra is a program specialist (CAPS) and PhD candidate at the University of New Mexico. A trained research, Dayra provides guidance for the academic research endeavor of Token Ibis.}
+#+END_EXPORT
+
 ** Active Volunteers
-All of our volunteers have deep roots in Albuquerque and are eager to contribute to its progress.
 
 #+BEGIN_EXPORT latex
 \avatar{./figures/avatars/tdinh}{Thien-Nam Dinh}{Thien-Nam is a computer science researcher at the Sandia Labs. In addition to software development, he is also heavily involved with networking in the local nonprofit community.}
 
 \avatar{./figures/avatars/zdinh}{Zian Dinh}{Zian is a UNM graduate and current graphic designer at Amazon.
-As a proud resident of Seattle, Zian hopes to be the first volunteer to bring Ibis to the bustling west coast.}
+As a proud resident of Seattle, Zian hopes to be the first volunteer to bring Token Ibis to the bustling west coast.}
 
 \avatar{./figures/avatars/dfrumkin}{Daniel Frumkin}{Daniel is a graduate of UNM.
 Based in Prague, Daniel works as a freelance technical writer and cryptocurrency expert, bringing insights on marketing disruptive economic ideas.}
 
 \avatar{./figures/avatars/jgrindell}{Jess Grindell}{Jess is our most recent UNM alumnus and prospective graduate student. Jess has worked extensively with schools and nonprofits in the area and helps with our off-hours outreach efforts.}
-
-\avatar{./figures/avatars/jpham}{Jennifer Pham}{Jennifer is a student and soon-to-be optmetrist in Houston. She fell in love with Albuquerque on a recent externship and continues to support Token Ibis through social media posts and content editing.}
 
 \avatar{./figures/avatars/zthompson}{Zachary Thompson}{Zach is a graduate of UNM.
 As a professional software developer and graduate of UNM's MBA program, he brings expertise in both business and app development.}
