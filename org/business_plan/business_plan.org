@@ -27,11 +27,13 @@
 #+END_EXPORT
 
 #+BEGIN_abstract
-This document covers the high-level overview for what we plan to accomplish as an organization.
-It will probably change over time.
+This document covers the high-level overview for what we have an intend to accomplish as an organization.
+It will continuously change over time.
 Aside from the /Executive Summary/, which introduces the model, all other sections are most useful as a self-contained reference.
-This business plan covers the "what" and the "how".
-For details about the "why", please consult our whitepaper on Universal Basic Philanthropy [[cite:dinh2020universal]] and/or explore supplementary media at https://tokenibis.org.
+This business plan covers the operations of the organization itself.
+For details about the rationale behind the overarching message of Universal Basic Philanthropy,
+please consult our whitepaper
+[[cite:dinh2020universal]] or explore supplementary media at https://tokenibis.org.
 #+END_abstract
 
 #+LATEX: \maketitle
@@ -39,57 +41,62 @@ For details about the "why", please consult our whitepaper on Universal Basic Ph
 
 * Executive Summary
 Token Ibis is an all-volunteer social profit organization with a mission to democratize philanthropy.
-We will start by empowering our youth with the financial resources to give back.
-Due to the strong belief that we have in the potential of this project, our board of directors has committed to provide the voluntary time and overhead funding to carry out this mission indefinitely.
-The core business model works like this:
+We believe that are three major shortcomings of the current institution:
 
-1. Raise money from the existing philanthropists.
-2. Distribute money to local college and high school students.
-3. Allow students to donate money to local nonprofits of their choosing.
+- *Power:* Social issues and services affect everyone, but decision-making power depends on private wealth.
+- *Autonomy:* Individuals seeking services need help, but unilaterally help undermine the self-determinism of already marginalized populations.
+- *Information:* In the current setup, it is difficult for existing institutions to quantity which organizations an causes require the most attention.
+
+We believe that the silver bullet to cut through these shortcomings is to explicitly place the decision-making into the hands of everyday citizen.
+What would social profit look like if every individual received free money to contribute to the organizations and causes that they value?
+The mission of Token Ibis is to explore this radical model at a feasible score.
+Our core business model works like this:
+
+1. Raise money from traditional philanthropic funding sources.
+2. Distribute money to everyday individuals.
+3. Allow individuals to donate money to local nonprofits of their choosing.
 
 [[./figures/flow.png]]
 
-In essence, Token Ibis is pushing a new approach for traditional philanthropists to engage youth in charitable giving.
-Our flagship product is a free digital platform that can facilitate this business model at scale.
-In this document, we outline an ambitious three-year roadmap to transition from a minimum viable product to a large-scale social movement.
-The plan calls for collaboration at multiple levels including donors, nonprofits, schools, and other grant-making groups with similar values.
+By leveraging modern technology, we can explore the benefits of Universal Basic Philanthropy in a highly practical experiment.
+Our flagship product is a free digital platform that can facilitate this business model at relatively large scales.
+In this document, we outline an ambitious three-phase roadmap to transition from a minimum viable product to a nation-wide social movement.
+Due to the strong belief that we have in the potential of this project, our board of directors has committed to provide the voluntary time and overhead funding to carry out this mission indefinitely.
+Moving forward, the plan calls for collaboration at multiple levels including donors, nonprofits, schools, and other movements pushing similar values.
 
 Our end goal is /not/ to become the most impressively large monolithic blob in social profit.
 Instead, we want to prove the UBP model so well that other organizations across the country will have no choice but to try to replicate it. 
-We will gladly help them.
 In this space, there is no competition, only progress.
-
 To our prospective collaborators, the value proposition is simple.
-Token Ibis can make every charitable dollar count twice: once to fund social profit, and once to inspire the next generation of philanthropists.
-If the pieces line up, then it might just be the start of something much bigger.
+Token Ibis can make every charitable dollar count twice: once to fund social profit today, and once to inspire a brand new model for tomorrow.
 
-* Token Ibis System
+* Business Model & Technology
 This section describes the design of the business model and as well as the enabling technology.
 The primary motivating principle of our design is /ease-of-use/.
 Unlike other social endeavors, which are often (necessarily) labor-intensive, our strategy is to leverage our organizational strength in technology to do the heavy-lifting.
 Ideally, we should have a product that is both practical to deploy and effortless to use.
 
 ** User Process
-Students will be able to get on board and make an impact immediately without needing any prior knowledge about nonprofits or philanthropy.
+Users will be able to get on board and make an impact immediately without needing any prior knowledge about nonprofits or philanthropy.
 
 Over time, we expect the process itself to positively reinforce their behavior.
 
-1. *Receive*: Every week, Token Ibis provides money to active students.
-2. *Donate*: Students explore nonprofits and allocate donations to organizations of their choosing.
-3. *Engage*: By giving them a financial voice, we encourage students to earn more money, deposit their own, or engage with nonprofits in even more ways.
+1. *Receive*: Every week, Token Ibis provides money to active users.
+2. *Donate*: Users explore nonprofits and allocate donations to organizations of their choosing.
+3. *Engage*: By giving them a financial voice, we encourage users to earn more money, deposit their own, or engage with nonprofits in even more ways.
 
 ** Operator Process
 In addition creating a smooth experience for users, we also want to minimize the overhead effort in operating the project, both for ourselves and for future organizations.
 Consequently, we have streamlined the operational process to the following steps:
 
 1. *Add Nonprofits*: Network with a representative cross-section of local nonprofits to add to the platform.
-2. *Onboard Students*: Brief students at the beginning of the semester to register them on the web app.
+2. *Onboard Users*: Brief users at the beginning of the semester to register them on the web app.
 3. *Make Donations*: On a monthly basis, track nonprofit allocations that have exceeded $100 and send the money to each organization off-channel.
 4. *Analyze Results*: Continually analyze app activity to improve user experience.
 
 ** Digital Platform
 Software is the glue to Token Ibis's business model.
-Our organization's primary product is a mobile web application that enables students to participate in philanthropy on an accessible, fun, and interactive platform.
+Our organization's primary product is a mobile web application that enables users to participate in philanthropy on an accessible, fun, and interactive platform.
 On January 11, 2020, we released the Beta version of our app, which is available at https://app.tokenibis.org and pictured in Figure \ref{fig:screenshots}.
 
 #+BEGIN_EXPORT latex
@@ -101,13 +108,13 @@ On January 11, 2020, we released the Beta version of our app, which is available
     \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/nonprofit}
   \end{subfigure}
   \begin{subfigure}[t]{0.18\textwidth} \centering
-    \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/transfer}
+    \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/donation}
   \end{subfigure}
   \begin{subfigure}[t]{0.18\textwidth} \centering
-    \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/transaction}
+    \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/activity}
   \end{subfigure}
   \begin{subfigure}[t]{0.18\textwidth} \centering
-    \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/event}
+    \includegraphics[clip, width=1.0\textwidth]{figures/screenshots/deposit}
   \end{subfigure}
   \caption{\textbf{Screenshots of the working prototype.} From left to right: (1) Home Page, (2) Nonprofit List, (3) Donate Action (4) Transaction View (5) Event View.}
   \label{fig:screenshots}
@@ -115,7 +122,7 @@ On January 11, 2020, we released the Beta version of our app, which is available
 #+END_EXPORT
 
 *** App Functionality
-The app supports three main types of activity for students: /giving/ money to nonprofits, /sending/ money to other users, or /engaging/ in non-financial ways.
+The app supports three main types of activity for users: /giving/ money to nonprofits, /sending/ money to other users, or /engaging/ in non-financial ways.
 The navigational structure looks like the following:
 
 #+BEGIN_EXPORT latex
@@ -150,8 +157,9 @@ As users explore the app, they will find that they can perform the following act
 - *Bookmark*: Privately save news, events, or posts for future viewing using filters.
 - *Deposit*: Add philanthropy dollars to their account through a credit/debit card deposit directly on the app.
  
-*** Technology Stack
-The main platform has two parts: a backend /API/ server that defines the state of the system and a frontend /App/ server that provides the official user interface. The type of app is a /progressive web app/\footnote{A progressive web app is a fairly new type of app which is accessible via a web browser but has the look and feel for a native mobile application}.
+*** App Technology Stack
+The main platform has two parts: a backend /API/ server that defines the state of the system and a frontend /App/ server that provides the official user interface.
+The type of app is a /progressive web app/\footnote{A progressive web app is a fairly new type of app which is accessible via a web browser but has the look and feel for a native mobile application}.
 In addition, we are working on a dashboard to show off aggregate statistics from the API to the public, and may add more specialized applications in the future.
 
 We developed the software in-house using 100% open-source frameworks and libraries.
@@ -168,28 +176,27 @@ Table [[tab:stack]] lists the main components of the technology stack.
 | *Operating System* | Ubuntu 18.04 |
 |--------------------+--------------|
 
-Finally, all Ibis code is free and open-source under the GPLv3 license and available on GitHub\footnote{https://github.com/Tokenibis}.
+All Ibis code is free and open-source under the GPLv3 license and available on GitHub\footnote{https://github.com/Tokenibis}.
 
-*** Integrations
+*** App Integrations
 A challenging, but vital, aspect of modern software development is the ability to integrate with other, more popular platforms.
 To that end, our software suite integrates with, or plans to integrate with, the following services:
 
 - *Google*: Oauth login, maps, email notifications
 - *Facebook*: Oauth login
-- *Microsoft*: UNM student login
+- *Microsoft*: Outlook (UNM/CNM) login
 - *Paypal*: User deposits
 - *Miscellaneous*: quotes API, prices API
 
-** Distribution Strategy
-Since not every student will be interested enough to actively participate in the app, we need to design a robust economic mechanism to make sure that donations still flow in a sensible way.
-Our strategy is as follows.
+*** Bot Program
+The primary way to add new features to the platform is through the ibots interface.  
+Token Ibis treats bots as a third type of entity (along with users and nonprofits) which can post send /rewards/ to users for engaging in various /activities.
+We will eventually open the bot platform to third-party contributors through the /ibots/ SDK\footnote{https://pypi.org/project/ibots/}.
 
-First, calculate the fixed amount of money that Token Ibis should award every week as the /number of students/ \times /money per student/ (e.g. $7).
-In the first week, all students get the same base amount.
-From there on out, /only/ students who participated in the previous week will receive money the next week.
-The only requirement for "participation" is to make a single donation or transaction during the week, no matter how small.
-We will split the same fixed global amount between all active students.
-In this way, the incentive for any one student to participate proportionally increases as more apathetic students drop out, ensuring that system reaches equilibrium.
+** Distribution Strategy
+Token Ibis distributes UBP payouts on a weekly basis at the same time every week (currently Fridays at 12:00 AM MT) using two automated distribution algorithms.
+The first algorithm, which governs the total UBP payout, is a PID control algorithm which ensures that the steady-state user donations approaches our weekly target\footnote{PID controllers are typically used to control physical systems like thermostats or the cruise control on a car. Intuitively, our PID implementation increases or decreases the global payout amount dynamically to gradually adjust the money that users actually donate}.
+Our second algorithm, which allocates the total amount to each user, employs an exponential back-off strategy to reward the most recently active users where activity is measured by whether a user makes a donation each week.
 
 ** Supporting Activities
 In addition to operating this core business model, Token Ibis engages in two other auxiliary activities.
@@ -207,13 +214,36 @@ By creating a naturally scalable but controlled propriety platform, our model pr
 As we accumulate users, Token Ibis will work closely with researchers, especially those based out of the University of New Mexico, to explore the academic foundations of UBP. 
 
 * Partnering Organizations
-This section lists external organizations with whom we currently have formal
-or informal connections to help us accomplish our mission.
-/Supporting nonprofits/ provide the social impact that motivates our entire model in the first place.
-/Educational institutions/ provide an ideal setting and target demographic to operate the project.
-Finally, the many excellent /potential collaborators/ already working in the grant-making and capacity building space will be key partners for taking our mission to the next level.
+This section lists external organizations with whom we currently have formal or informal connections to help us accomplish our mission.
 
-** Supported Nonprofits
+** Upstream Donors
+Although we are not actively fundraising at the moment, we have already received incredibly generous support from the community.
+
+#+BEGIN_EXPORT latex
+\avatar{figures/avatars/us_charitable}{Tarbell Family Foundation}{The Tarbell Foundation is a donor-advised fund of the US Charitable Gift Trust.}
+
+\avatar{figures/avatars/individuals}{Individual Donors}{Individual donors (outside of the board) have contributed approximately 2000 USD to the platform to date.}
+#+END_EXPORT
+
+** Peer Collaborators
+In a typical for-profit business plan, this subsection might be called "competitors".
+Instead, as a social profit organization, we hope to initiate collaboration when and wherever possible.
+The following are organizations are working toward similar goals to increase participation in philanthropy.
+
+/The following list includes organizations with whom we have individual contacts./
+/We do *not* necessarily claim to have official partnerships with the organization itself./
+
+#+BEGIN_EXPORT latex
+\avatar{figures/avatars/unm}{University of New Mexico}{UNM is the premier research university in the state. We have assessed the school's IT infrastructure to verify that we can use UNM email addresses as reliable form of identification for students. The Token Ibis team includes two UNM graduate students, and we expect that proximity to the institution will facilitate further collaboration with interested researchers.}
+
+\avatar{figures/avatars/abqinvolved}{Albuquerque Involved}{Like Token Ibis, Albuquerque Involved is a volunteer-run, board-funded initiative which aims to motivate individuals and families to give back.
+We have been steadily building our relationship with ABQ Involved and have discussed collaborative projects in the very near future to advance our shared mission of democratizing philanthropy.}
+
+\avatar{figures/avatars/cabq}{City of Albuquerque}{As an Albuquerque-based organization, we have an interested in working with the city government to promote Token Ibis as a platform for community engagement.
+We have initiated dialog with the city's Civic Engagement department to discuss opportunities to recruit collaborators, nonprofits, and users.}
+#+END_EXPORT
+
+** Downstream Nonprofit Organizations
 In addition to creating the social impact that justifies our model, these partners provide an invaluable connection for synergistic marketing, fundraising, and knowledge-sharing.
 The following list shows the organizations that we are already working with.
 For each of the them, we maintain at least one contact who is familiar with our mission.
@@ -251,8 +281,12 @@ For each of the them, we maintain at least one contact who is familiar with our 
 
 \avatar{figures/avatars/saranam}{Saranam LLC}{A 2-year program for families experiencing homelessness focused on long-term transition.}
 
-\avatar{figures/avatars/storehouse}{Storehouse}{Operates the state's largest food pantry, which offering free
-food in downtown Albuquerque.}
+\avatar{figures/avatars/storehouse}{Storehouse}{Operates the state's largest food pantry, which offering free food in downtown Albuquerque.}
+
+\avatar{figures/avatars/tgrcnm}{Transgender Resource Center of New Mexico}{Provides community training, support groups, and basic needs.}
+
+\avatar{figures/avatars/treenm}{Tree New Mexico}{Operations community-oriented programs to maintain and grow the city's urban forestry.}
+
 #+END_EXPORT
 
 We plan to grow this list as we secure more funding and partnerships with educational institutions.
@@ -263,140 +297,73 @@ Eligible organizations must:
 - Have been vetted by a trusted 3rd-party organizations such as the United Way, the ABQ Foundation, the city of ABQ, or the UNM Foundation.
 - Refrain from engaging in significant political advocacy
 
-Beyond these minimum requirements, we also strive to create a well-balanced and engaging portfolio of nonprofits for our students.
+Beyond these minimum requirements, we also strive to create a well-balanced and engaging portfolio of nonprofits for our users.
 Moving forward, the bulk of our nonprofit additions will likely be user-driven.
 
-** Educational Institutions
-In order to limit the population to manageable scope, Ibis will our launch the pilot program at UNM.
-Moving forward, expansion to CNM and other colleges will depend primarily on funding.
-Expansion to high school programs will depend on the level of interest and collaboration with administrators.
-
-#+BEGIN_EXPORT latex
-\avatar{figures/avatars/unm}{University of New Mexico}{UNM is the premier research university in the state. We have assessed the school's IT infrastructure to verify that we can use UNM email addresses as reliable form of identification for students. The Token Ibis team includes two UNM graduate students, and we expect that proximity to the institution will facilitate further collaboration with interested researchers.}
-#+END_EXPORT
-
-** Collaborators
-In a typical for-profit business plan, this subsection might be called "competitors".
-Instead, as a social profit organization, we hope to initiate collaboration when and wherever possible.
-The following are organizations are working toward similar goals to increase participation in philanthropy.
-
-#+BEGIN_EXPORT latex
-\avatar{figures/avatars/abqinvolved}{Albuquerque Involved}{Like Token Ibis, Albuquerque Involved is a volunteer-run, board-funded initiative which aims to motivate individuals and families to give back.
-We have been steadily building our relationship with ABQ Involved and have discussed collaborative projects in the very near future to advance our shared mission of democratizing philanthropy.}
-#+END_EXPORT
-
-# #+BEGIN_EXPORT latex
-# \avatar{figures/avatars/unitedway}{United Way of Central New Mexico}{The UWCNM is a key player in the Albuquerque social profit sector due to both its grant-making capacity and extensive support network through initiatives such as the Center for Nonprofit Excellence, which we have used extensively.
-# At Token Ibis, we are particularly interested building a collaboration with their community grant panel program.}
-
-# \avatar{figures/avatars/abqcommunity}{Albuquerque Community Foundation}{The Albuquerque Community Foundation is another key player in the local funding landscape.
-# Among numerous invaluable networking opportunities, we are interested in building our existing presence with the Future Fund, a program that targets philanthropic participation young professionals who are only slightly older than our own target demographic.}
-
-# \avatar{figures/avatars/abqacademy}{Community Builders}{The Albuquerque Academy Community Builders is a summer program that allows participating students to learn about social profit and allocate real money through a mock foundation.
-# Token Ibis aims to replicate some of the tremendous impact already demonstrated by the Community Builders program, only at a larger and more accessible scale. \textbf{\emph{No contact initiated yet.}}}
-# #+END_EXPORT
-
 * Roadmap
-This section outlines our vision for how progress will unfold.
-Our first task is to create a series of growing deployments to prove the efficacy of the UBP model.
-However, we hope that the work we do now will soon contribute to a much larger movement.
-For that to happen, it's not enough for Token Ibis to grow larger as an organization.
-Instead, our job is to establish and disseminate a water-tight model that other communities can someday use to spark social profit across the world.
+This section outlines our tentative vision for how progress will unfold.
+We expect gradual transitions and significant overlap between each phase tabulated in Table [[tab:phases]].
+As of the writing of this document, Token Ibis is midway through Phase I and preparing to scope out phase II.
 
-** Stage One: User Dynamics
-In the first stage (Table [[tab:one]]), we will launch the first-ever pilot project for UBP in a small-scale but high-impact setting.
-Although any UNM student is welcome to join, we expect that the population will self-select toward social-profit-inclined users (e.g. members of service-oriented student organizations).
-This will allow us to observe the dynamics of UBP and philanthropy dollars with an ideal, dynamic, and non-exclusive population.
-In the process, we hope to earn credibility and obtain anecdotal evidence for the importance of this work.
+#+name: tab:phases
+#+CAPTION: *Phase Scopes*
+|-------------+---------------------+----------------|
+|             | *Weekly Budget ($)* | *Active Users* |
+|-------------+---------------------+----------------|
+| *Phase I*   |           1000-2000 |           <100 |
+| *Phase II*  |              10000+ |          1000+ |
+| *Phase III* |            variable |       variable |
+|-------------+---------------------+----------------|
 
-#+name: tab:one
-#+CAPTION: *Year One Scope.*
-|--------------+------------------|
-| *Budget*     | \approx $50,000  |
-| *Population* | \approx 150      |
-| *Setting*    | UNM              |
-| *Goal*       | Anecdotal Impact |
-|--------------+------------------|
+** Phase I: Explore
+The goal of Phase I is explore the impact space and fine-tune our mission.
+Although resources are limited in this phase, we enjoy flexibility and low communication overhead.
+This is the time to enumerate the challenges that we face and commit to a long-term model.
+As of this writing, we have completed two major pivots as a result of considerable dialog with nonprofit professionals.
+The Token Ibis team, support base, and digital platform have all remained active and continuous through both pivots.
+We feel that the current iteration of UBP and the surrounding business model are beginning to solidify.
 
-*** Transition
-As the project unfolds, we will leverage our success to secure key donors and collaborators for the next stage.
-In the meantime, this environment will provide the first opportunity to formalize the dynamics of UBP and understand its potential benefits.
-We intend to publish these (primarily qualitative) results in an academic journal.
+** Phase II: Scale
+Having committed to a watertight message and business model, the next challenge to scale up the ecosystem.
+This process entails growing three key resources:
 
-** Stage Two: System Dynamics
-Armed with increased funding and collaborators, we will scale up the project to any interested education institution (Table [[tab:two]]).
-Moreover, the scale of money flowing through this state should shed some light into the dynamics involving funders and nonprofits.
-Our hope is that by aligning outreach with fundraising, organizations can more naturally engage a young and energetic community.
-Whereas Stage One will demonstrate the UBP dynamics of individual users, Stage Two will enable us to understand how UBP can align economic incentives at a systematic level.
+1. Donor dollars
+2. Nonprofit connections
+3. User activity
 
-#+name: tab:two
-#+CAPTION: *Year Two Scope.*
-|--------------+----------------------|
-| *Budget*     | >= $200,000          |
-| *Population* | >= 600               |
-| *Setting*    | UNM/CNM/High Schools |
-| *Goal*       | Rigorous Analysis    |
-|--------------+----------------------|
+Once we achieve a user base of 1000+ active individuals, we anticipate ample opportunity to achieve major press and make nation-wide connections.
+Additionally, we will have rigorous quantitative data to analyze the key features of UBP.
 
-*** Transition
-At this point, we should have an extremely clear idea about the strengths and weaknesses of the system.
-In preparing for the next phase, Token Ibis will consolidate the business model and software into a "plug-and-play" package that any organization can deploy in their own communities.
+** Phase III: Replicate
+In the third phase, we will package our software and business model so that any interested organization can replicate it.
+Token Ibis will provide low-cost consulting services to deploy our own software.
 
-** Stage Three+: Collective Movement
-In the third phase (Table [[tab:three]]), Token Ibis will become a provider and consultant for "UBP-in-a-box".
-Our mission is to enable communities around the world to set up their own local UBP projects.
-Interested clients might include schools, municipalities, corporations, churches, or any other organization that has access to three resources:
-
-- A source to fund donations.
-- A community to allocate donations.
-- A list of nonprofits to receive donations.
-
-On our end, Token Ibis provides the following:
-
-- Easily deployable software.
-- Branding/marketing material.
-- A theoretical umbrella for collaborative research.
-- An network of interested community members.
-
-Tech-savy organizations should be able to easily clone our servers into a standalone software service for their local UBP project.
-For the others, we will provide consulting services to aid in the setup phase.
-
-#+name: tab:three
-#+CAPTION: *Year Three+ Scope.*
-|--------------+---------------|
-| *Budget*     | Unbounded     |
-| *Population* | Unbounded     |
-| *Setting*    | Anywhere      |
-| *Goal*       | Mass Adoption |
-|--------------+---------------|
-
-*** Transition
-If all goes well, UBP has now transitioned from a local pilot project into a mass movement.
-Perhaps Token Ibis will be an active and well-respected voice in the national philanthropic scene.
-Or, perhaps others will take over the mantle to push the idea of democratized philanthropy to far greater heights than we could have done ourselves.
-Either way, we have succeeded.
+UBP can be deployed by any organization that has funding, nonprofit connections, and population of interested users---features that describe most foundations and United Ways.
+On our end, Token Ibis can supply free software, marketing materials, and lessons learned.
+In return, we will encourage organizations to allow us to aggregate public donor data so that we can pursue even more meaningful analysis at scale.
+Whereas a single organization can only grow so quickly, the spread of ideas and software is practically unbounded.
 
 * Revenue & Expenses
 This section describes our fundraising requirements and costs.
-The overview is simple: Token Ibis has next to overhead, so we are free to re-purpose all incoming donor money into philanthropy dollars for our students.
+The overview is simple: Token Ibis has next to overhead, so we are free to re-purpose all incoming donor money into philanthropy dollars for our users.
 
 Table [[tab:operating]] shows Token Ibis's core operating costs.
 Although we itemize these expenses for the sake of transparency, the intent is to show that our overall annual budget is essentially negligible.
 
 #+name: tab:operating
 #+CAPTION: *Annual Core Operating Costs.*
-|--------------------+--------------|
-| *Expense*          | *Cost ($)*   |
-|--------------------+--------------|
-| Stationary         |          300 |
-| P.O. Box           |          170 |
-| Computing Services |          150 |
-| Membership Fees    |           50 |
-| Filing Fees        |           25 |
-| Other IT           |           10 |
-|--------------------+--------------|
-| Total              |          705 |
-|--------------------+--------------|
+|--------------------+------------|
+| *Expense*          | *Cost ($)* |
+|--------------------+------------|
+| Stationary         |        300 |
+| P.O. Box           |        170 |
+| Computing Services |        150 |
+| Membership Fees    |         50 |
+| Filing Fees        |         25 |
+| Other IT           |         10 |
+|--------------------+------------|
+| Total              |        705 |
+|--------------------+------------|
 #+TBLFM: @8$2=vsum(@2..@-1)
 
 The one variable costs that we do not include in Table [[tab:operating]] is marketing.
@@ -410,7 +377,7 @@ The general narrative is this:
 
 1. The nonprofit sector is a necessary and vibrant component of the local community.
 2. There is plenty of philanthropic capacity in this state.
-3. Our students are the best vehicle for pumping philanthropic dollars into the nonprofit sector.
+3. Our users are the best vehicle for pumping philanthropic dollars into the nonprofit sector.
  
 ** Nonprofits
 The nonprofit sector is a staple of the New Mexican economy.
@@ -450,50 +417,6 @@ Together, these two series gives us a useful idea about the capacity of prospect
 Not all donors itemize their contributions.
 Comparing the total national amount of charitable deductions with Giving USA's 2017 number for total individual donations indicates that about 10.6% of contributions do not show up on itemized tax returns.
 Assuming this ratio also holds for NM, we would expect that the actual amount of individual giving is closer to $1.023 billion.
-
-** Students
-We would also like to have a good sense of the population of students in Albuquerque.
-Based on the latest figures, UNM and CNM reports undergraduate enrollments of 14,865\footnote{https://oia.unm.edu/spring-2020-oer.pdf} and 24,442\footnote{https://www.cnm.edu/depts/opie/2017-18-fact-book}, respectively.
-At the high school level, APS currently serves 23,045 in traditional public schools.
-This number does not include students attending charter schools or private schools.
-
-Based on APS's interactive dashboard, high school students attending traditional public schools are notably diverse and likely to come from low socioeconomic backgrounds [[cite:aps2020dashboard]].
-Figure \ref{fig:demographics} displays some key demographics.
-
-#+BEGIN_EXPORT latex
-\begin{figure}[htbp] \centering
-  \begin{subfigure}[t]{0.45\linewidth} \centering
-    \includegraphics[trim={5cm 0 0 0}, clip, width=1.0\textwidth]{figures/student_lunch}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.45\linewidth} \centering
-    \includegraphics[trim={5cm 0 0 0}, clip, width=1.0\textwidth]{figures/student_ethnicity}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.45\linewidth} \centering
-    \includegraphics[trim={5cm 0 0 0}, clip, width=1.0\textwidth]{figures/student_disability}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.45\linewidth} \centering
-    \includegraphics[trim={5cm 0 0 0}, clip, width=1.0\textwidth]{figures/student_gender}
-  \end{subfigure}
-  \caption{\textbf{Select APS High School Student Demographics.}}
-  \label{fig:demographics}
-\end{figure}
-#+END_EXPORT
-
-Pundits inside and outside the nonprofit sector alike have long complained about the lack of diversity in philanthropy.
-To us, UBP is far and away the most straightforward mechanism to fix this issue.
-
-** Summary: The Price of Radical Ideas
-One way to understand the logical end of our mission is to imagine a future in which every high school and college student in New Mexico can participate in Token Ibis's UBP program.
-How different would our state look if we raised every single young adult with this mindset of social impact?
-On the flip side, how much would that cost?
-Figure [[fig:volume]] attempts to put this latter question into perspective.\footnote{"Other Giving" is an estimate derived from combining 2017 IRS tax returns and the Giving USA report for 2017. "All NM High Schools" is an estimate derived from census data at https://www.census.gov/quickfacts/NM where we conservatively assume that all students age 14-17 attend high school.}
-
-#+name: fig:volume
-#+CAPTION: *Philanthropic Capacity and UBP Cost Comparison.* The bars clustered on the left show philanthropic capacity while bars the clustered the right show the cost of UBP experiments for select student groups.
-[[./figures/cost_volume.png]]
-
-To fund UBP for the three largest colleges along with every high school student in the state, donors would only have to redirect 3.29% of their total giving.
-This is a remarkably low number considering the impact it could have on an entire generation of young adults.
 
 * Token Ibis Team
 This section lists the individuals running Token Ibis.
@@ -539,14 +462,19 @@ So why do we do what we do?
 The short answer is that a couple of us really want make an appearance on our favorite podcast someday\footnote{NPR's Planet Money and Joe Rogan are currently on the shortlist}.
 The slightly longer answer is there is that there is a thrill that comes with being in the right place at the right time.
 In the world of shameless idealism, there are radical ideas, and there are radical ideas that are actionable.
-But every now and then, there are radical, actionable ideas where even failure is worthwhile.
+But every now and then, there are radical, actionable ideas where even failure is impossible.
 
-If we succeed, then Albuquerque could become the center of a much larger discussion on the democratization of social profit.
-If not, we’ll just have to commiserate with the hundreds of students that get empowered along the way.
-The volunteers of Token Ibis are happy to take that bet, and we hope you will too.
+As long as we are right about the value of UBP, any work that we do will only serve as a building block for others to build on.
+This our chance to be at the start of something much, much bigger.
 
 * Funding Proposition
-Token Ibis is seeking to secure $50,000 of funding for our first pilot project, which we tentatively intend to launch by August 2020 at UNM.
+Unlike other organizations, Token Ibis has a highly fluid fundraising model. 
+Thanks to our heavy reliance on automation, flexible economic model, and streamline organizational structure, we don't have any hard capital needs.
+Our operational costs are negligible, and our board has committed to enough bare minimum funding that Token Ibis will move meaningful philanthropy money (at least $2,000 per month) indefinitely.
+
+Instead, you can think of Token Ibis as a hyper-efficient engine for converting dollars into impact.
+The more money we feed in, the more populations we will be able to reach, and the more social profit comes out of the other side.
+We don't want to be one of the ways you give back to the community, we want to be /the/ way.
 
 ** Donation Tiers
 We are deeply grateful for donors of all capacities and currently recognize seven different giving tiers listed in Table [[tab:tiers]].
@@ -594,8 +522,7 @@ Token Ibis is not in the business of solving a single problem or fulfilling a si
 Our mission is to take a vision and grow it to much loftier heights.
 This fun graphic allows us to immortalize every step of an exciting new journey.
 
-At the beginning of this document, we promised that every dollar you donate will count twice: once to fund social profit, and once to inspire the next generation of philanthropists.
-However, it won't just be our students that we can inspire.
+At the beginning of this document, we promised that every dollar you donate will count twice: once to fund social profit, and once to build a new model for tomorrow.
 Token Ibis is in the business of creating a world where social impact can belong to everyone.
 With your help, we can start right here in the 505.
 
